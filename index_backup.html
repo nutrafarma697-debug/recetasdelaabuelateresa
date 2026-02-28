@@ -1,0 +1,5333 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolos da Vó Tereza - 500 Receitas Sem Glúten</title>
+    <meta name="description"
+        content="Bolos saudáveis, fofinhos e deliciosos para comer sem culpa. 500 receitas sem glúten, lactose e açúcar refinado.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Source+Serif+4:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids async defer></script>
+    <script>
+        window.pixelId = "69a19d5a5d976839c01a9956";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1606907960551442');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1606907960551442&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --verde: #f0a82b;
+            --verde-escuro: #ab6f0f;
+            --marrom: #403636;
+            --branco: #ffffff;
+            --cinza-claro: #f9f9f9;
+            --laranja: #f57661;
+            --amarelo: #f9f5b2;
+            --verde-botao: #8ac915;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--marrom);
+            background: #fff;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ============================================================
+       SEÇÃO 1 — HERO
+    ============================================================ */
+        .hero {
+            position: relative;
+            background: url('https://i.postimg.cc/JzMDTSQG/vista-lateral-de-bolo-de-frutas-coberto-com-chocolate-e-creme-batido-na-mesa-servido-com-cha-140725.avif') center 25% / cover no-repeat;
+            padding: 60px 0 80px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.70) 40%, rgba(240, 168, 43, 0.40) 100%);
+            z-index: 0;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .hero-left {
+            flex: 1;
+        }
+
+        .hero-logo {
+            width: 160px;
+            margin-bottom: 32px;
+        }
+
+        .hero-titulo {
+            font-family: 'Source Serif 4', serif;
+            font-weight: 900;
+            font-size: clamp(28px, 4vw, 40px);
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: var(--marrom);
+        }
+
+        .hero-titulo .destaque {
+            color: var(--verde);
+            display: block;
+        }
+
+        /* --- VSL AVISO --- */
+        .vsl-aviso {
+            background-color: #05a643;
+            /* tom de verde próximo ao da imagem */
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            padding: 14px 5px;
+            border-radius: 8px;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 320px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            z-index: 5;
+            letter-spacing: -0.5px;
+            white-space: nowrap;
+        }
+
+        /* --- VSL STORY CARD --- */
+        .vsl-story-wrap {
+            width: 100%;
+            max-width: 320px;
+            aspect-ratio: 9/16;
+            background: #222222;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            position: relative;
+            overflow: hidden;
+            border: 4px solid #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .hero-left .vsl-story-wrap {
+            margin: 12px 0 30px 0;
+        }
+
+        @media (max-width: 900px) {
+            .hero-left .vsl-aviso {
+                margin: 30px auto 0 auto;
+            }
+
+            .hero-left .vsl-story-wrap {
+                margin: 12px auto 30px auto;
+            }
+        }
+
+        .vsl-placeholder-bg {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(240, 168, 43, 0.2) 0%, rgba(200, 130, 20, 0.5) 100%);
+            z-index: 1;
+        }
+
+        .vsl-play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            z-index: 3;
+            pointer-events: none;
+        }
+
+        .vsl-play-text {
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.4);
+            padding: 6px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        .vsl-play-circle {
+            width: 90px;
+            height: 90px;
+            background: var(--verde);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(240, 168, 43, 0.6);
+            animation: pulsePlayVSL 2s infinite ease-in-out;
+            color: #fff;
+        }
+
+        .vsl-play-circle svg {
+            width: 40px;
+            height: 40px;
+            margin-left: 6px;
+            fill: currentColor;
+        }
+
+        .vsl-ended-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 25px;
+            gap: 10px;
+            z-index: 5;
+            cursor: pointer;
+        }
+
+        .vsl-ended-text {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+            letter-spacing: 0.5px;
+        }
+
+        .vsl-ended-arrow {
+            width: 60px;
+            height: 60px;
+            fill: #05a643;
+            /* Verde vibrante */
+            animation: bounceDownArrow 1.5s infinite ease-in-out;
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+        }
+
+        @keyframes bounceDownArrow {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(15px);
+            }
+        }
+
+        @keyframes pulsePlayVSL {
+            0% {
+                box-shadow: 0 0 0 0 rgba(240, 168, 43, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 20px rgba(240, 168, 43, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(240, 168, 43, 0);
+            }
+        }
+
+        .hero-subtitulo {
+            font-size: clamp(16px, 2vw, 19px);
+            line-height: 1.6;
+            color: #ffffff;
+            margin-bottom: 32px;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+            font-weight: 500;
+        }
+
+        .hero-subtitulo strong {
+            font-weight: 900;
+            color: #ffffff;
+            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.9), 0 0 3px rgba(0, 0, 0, 0.8);
+            letter-spacing: 0.5px;
+        }
+
+        .hero-cta-wrap {
+            position: relative;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        .hero-cta-border {
+            position: absolute;
+            inset: -7px;
+            border: 2px solid var(--verde);
+            border-radius: 54px;
+            background: var(--cinza-claro);
+        }
+
+        .btn-hero {
+            position: relative;
+            display: inline-block;
+            background: var(--verde-botao);
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 18px 30px;
+            border-radius: 100px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.25s;
+            text-align: center;
+            min-width: 280px;
+            box-shadow: 0 4px 15px rgba(138, 201, 21, 0.3);
+        }
+
+        .btn-hero:hover {
+            background: var(--verde-escuro);
+            transform: translateY(-2px);
+        }
+
+        .hero-right {
+            flex: 0 0 450px;
+            position: relative;
+        }
+
+        .hero-image-box {
+            border-radius: 57px 0 100px;
+            border: 20px solid #fff;
+            background: var(--verde);
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ============================================================
+           NOVA GALERIA ABAIXO DO HERO
+        ============================================================ */
+        .hero-gallery {
+            width: 100%;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            z-index: 5;
+            overflow: hidden;
+            /* Corta o excesso das imagens fora da tela na animação */
+        }
+
+        .hg-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            width: 100%;
+            gap: 0;
+            /* Coladas como na referência */
+            margin: 0;
+            padding: 0;
+        }
+
+        .hg-grid img {
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 4 / 5;
+            /* Altura exata da proporção da foto */
+            object-fit: cover;
+            display: block;
+            border: none;
+            transition: transform 0.3s ease;
+        }
+
+        @media (max-width: 900px) {
+            .hg-grid {
+                grid-template-columns: repeat(4, 1fr);
+                /* Força 4 imagens lado a lado no tablet */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hg-grid {
+                display: flex;
+                width: calc(100% * 1.333333);
+                /* Aumenta a div para caberem 4 fotos, mas onde apenas 3 preenchem a tela 100% */
+                animation: mobileScrollGallery 6s ease-in-out infinite alternate;
+            }
+
+            .hg-grid img {
+                width: 25%;
+                /* Cada foto representa exatos 1/4 do tamanho total expandido */
+                flex-shrink: 0;
+            }
+        }
+
+        @keyframes mobileScrollGallery {
+
+            0%,
+            15% {
+                transform: translateX(0);
+            }
+
+            85%,
+            100% {
+                transform: translateX(-25%);
+            }
+
+            /* Empurra a galeria escondendo a primeira e mostrando a última */
+        }
+
+        /* ============================================================
+       SEÇÃO DORES E SOLUÇÃO (NOVO ESTILO PREMIUM)
+    ============================================================ */
+        .section-dores-solucao {
+            position: relative;
+            background: #f0a82b;
+            padding: 80px 0;
+            overflow: hidden;
+        }
+
+        .ds-overlay {
+            position: absolute;
+            inset: 0;
+            background: url('https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            opacity: 0.12;
+            filter: blur(3px);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .ds-container {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .ds-bloco {
+            margin-bottom: 80px;
+        }
+
+        .ds-bloco:last-child {
+            margin-bottom: 0;
+        }
+
+        .ds-title {
+            font-family: 'Source Serif 4', serif;
+            color: #ffffff;
+            text-align: center;
+            font-size: clamp(28px, 4vw, 36px);
+            font-weight: 900;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .ds-title span {
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+            font-size: clamp(18px, 3vw, 24px);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .ds-title b {
+            font-weight: 900;
+            display: block;
+        }
+
+        .ds-arabesque {
+            width: 45px;
+            height: auto;
+            opacity: 0.9;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+            margin: 10px;
+        }
+
+        .ds-subtitle {
+            text-align: center;
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: -30px;
+            margin-bottom: 50px;
+        }
+
+        .ds-subtitle-destaque {
+            font-weight: 800;
+            font-style: italic;
+            color: #f9f5b2;
+        }
+
+        .ds-subtitle-upper {
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #f9f5b2;
+        }
+
+        .ds-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+        }
+
+        .ds-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 25px 15px 30px;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .ds-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+        }
+
+        .ds-card-tape {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-3deg);
+            width: 65px;
+            height: 22px;
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            backdrop-filter: blur(2px);
+            z-index: 2;
+        }
+
+        .ds-card-emoji {
+            font-size: 45px;
+            margin-top: 5px;
+            margin-bottom: 12px;
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+        }
+
+        .ds-card-title {
+            background: #f0a82b;
+            color: #fffbeb;
+            /* creme muito claro super elegante em vez de puro branco */
+            font-size: 13px;
+            /* pouco maior para respiro */
+            font-weight: 800;
+            padding: 8px 10px;
+            border-radius: 30px;
+            margin-bottom: 15px;
+            width: 100%;
+            line-height: 1.3;
+            box-shadow: 0 4px 10px rgba(148, 164, 118, 0.3);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            /* legibilidade */
+        }
+
+        /* Variacoes de Cores para as Caxinhas para dar "energia e vida" nas palavras menores */
+        .ds-card:nth-child(1) .ds-card-title,
+        .ds-card:nth-child(6) .ds-card-title {
+            background: #84cc16;
+            /* Verde intenso fresco */
+            color: #f0fdf4;
+            box-shadow: 0 4px 10px rgba(132, 204, 22, 0.3);
+        }
+
+        .ds-card:nth-child(2) .ds-card-title,
+        .ds-card:nth-child(5) .ds-card-title {
+            background: #f59e0b;
+            /* Laranja/dourado ambar */
+            color: #fffbeb;
+            box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+        }
+
+        .ds-card:nth-child(3) .ds-card-title,
+        .ds-card:nth-child(4) .ds-card-title {
+            background: #a16207;
+            /* Marrom dourado super premium */
+            color: #fef3c7;
+            box-shadow: 0 4px 10px rgba(161, 98, 7, 0.3);
+        }
+
+        .ds-card-text {
+            font-size: 12px;
+            line-height: 1.6;
+            color: #44403c;
+            /* marrom chumbo ao inves de cinza apagado */
+            font-weight: 700;
+            flex-grow: 1;
+            padding: 0 5px;
+        }
+
+        @media (max-width: 1200px) {
+            .ds-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .ds-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .ds-card {
+                padding: 25px 20px 30px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .ds-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+
+            .ds-card {
+                padding: 20px 8px 20px;
+                border-radius: 15px;
+            }
+
+            .ds-card-emoji {
+                font-size: 32px;
+                margin-bottom: 8px;
+            }
+
+            .ds-card-title {
+                font-size: 10px;
+                padding: 6px 4px;
+                margin-bottom: 10px;
+                border-radius: 15px;
+            }
+
+            .ds-card-text {
+                font-size: 10px;
+                line-height: 1.4;
+                padding: 0;
+            }
+
+            .ds-card-tape {
+                width: 45px;
+                height: 15px;
+                top: -6px;
+                border-width: 0.5px;
+            }
+
+            .ds-title {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 4 — ANTES VS DEPOIS VISUAL
+    ============================================================ */
+        .section-antes-depois {
+            position: relative;
+            background: #f0a82b;
+            padding: 120px 0;
+            overflow: hidden;
+        }
+
+        .ad-bg-image {
+            position: absolute;
+            top: 0;
+            right: -10%;
+            width: 60%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+            opacity: 0.15;
+            filter: blur(5px);
+            z-index: 1;
+            transition: transform 0.8s ease-out;
+        }
+
+        .section-antes-depois:hover .ad-bg-image {
+            transform: scale(1.05) translate(-10px, 10px);
+        }
+
+        .ad-overlay {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(240, 168, 43, 0.75) 0%, rgba(240, 168, 43, 0.95) 100%);
+            z-index: 2;
+        }
+
+        .ad-container {
+            position: relative;
+            z-index: 3;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .ad-title {
+            font-family: 'Source Serif 4', serif;
+            color: #ffffff;
+            text-align: center;
+            font-size: clamp(28px, 4vw, 42px);
+            font-weight: 400;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            animation: fadeSlideUp 0.8s ease backwards 0.2s;
+        }
+
+        .ad-title-top {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .ad-title b {
+            font-weight: 900;
+        }
+
+        .ad-arabesco {
+            width: 45px;
+            height: auto;
+            opacity: 0.9;
+        }
+
+        @keyframes fadeSlideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .ad-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 50px;
+        }
+
+        .ad-card {
+            background: #c78316;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            position: relative;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .ad-card-border {
+            position: absolute;
+            inset: 15px;
+            border: 3px solid #ffffff;
+            border-radius: 8px;
+            pointer-events: none;
+            z-index: 1;
+            animation: shimmerBorder 2s infinite alternate;
+        }
+
+        @keyframes shimmerBorder {
+            0% {
+                border-color: rgba(255, 255, 255, 0.4);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0) inset;
+            }
+
+            50% {
+                border-color: rgba(255, 255, 255, 1);
+                box-shadow: 0 0 15px rgba(255, 255, 255, 0.8) inset;
+            }
+
+            100% {
+                border-color: rgba(255, 255, 255, 0.4);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0) inset;
+            }
+        }
+
+        .ad-corner-icon {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            z-index: 2;
+            background: url('https://img.icons8.com/ios-filled/50/ffffff/fantasy.png') center/contain no-repeat;
+        }
+
+        .ad-corner-tl {
+            top: 9px;
+            left: 9px;
+        }
+
+        .ad-corner-tr {
+            top: 9px;
+            right: 9px;
+            transform: scaleX(-1);
+        }
+
+        .ad-corner-bl {
+            bottom: 9px;
+            left: 9px;
+            transform: scaleY(-1);
+        }
+
+        .ad-corner-br {
+            bottom: 9px;
+            right: 9px;
+            transform: scale(-1, -1);
+        }
+
+        .ad-card:hover {
+            transform: translateY(-8px) scale(1.02) !important;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+        }
+
+        .ad-card-antes {
+            animation: slideInLeft 0.8s ease backwards;
+            transform: rotate(-2deg);
+        }
+
+        .ad-card-depois {
+            animation: slideInRight 0.8s ease backwards;
+            transform: rotate(2deg);
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px) rotate(-4deg);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0) rotate(-2deg);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px) rotate(4deg);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0) rotate(2deg);
+            }
+        }
+
+        .ad-cake-img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 4;
+            filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.35));
+            animation: bounceInCake 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards 0.3s;
+            transition: all 0.4s ease;
+        }
+
+        .ad-card:hover .ad-cake-img {
+            transform: translateY(-5px);
+            filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.4)) brightness(1.15);
+        }
+
+        @keyframes bounceInCake {
+            0% {
+                opacity: 0;
+                transform: scale(0.3) translateY(30px);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.05) translateY(-5px);
+            }
+
+            100% {
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .ad-card-header {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 4;
+        }
+
+        .ad-card-header h3 {
+            font-size: 28px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .ad-card-header p {
+            font-size: 16px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+
+        .ad-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            position: relative;
+            z-index: 4;
+        }
+
+        .ad-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            line-height: 1.4;
+            opacity: 0;
+            animation: fadeInBullet 0.5s forwards;
+        }
+
+        @keyframes fadeInBullet {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .ad-bullet-antes {
+            font-size: 14px;
+            margin-top: 2px;
+        }
+
+        .ad-bullet-depois {
+            font-size: 14px;
+            margin-top: 2px;
+        }
+
+        .ad-final {
+            text-align: center;
+            color: #fff;
+            margin-top: 50px;
+            animation: fadeZoom 0.8s ease backwards 1s;
+        }
+
+        @keyframes fadeZoom {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .ad-final-line1 {
+            display: inline-block;
+            background: rgba(69, 82, 49, 0.8);
+            padding: 8px 25px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .ad-final-line1 i {
+            font-style: italic;
+        }
+
+        .ad-final-line2 {
+            font-size: 40px;
+            font-weight: 900;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        @media (max-width: 900px) {
+            .ad-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .section-antes-depois {
+                padding: 60px 0;
+            }
+
+            .ad-card {
+                padding: 30px 20px;
+                transform: rotate(0) !important;
+                animation: none !important;
+            }
+
+            .ad-card:hover {
+                transform: translateY(-5px) scale(1.02) !important;
+            }
+
+            .ad-title {
+                font-size: 26px;
+                margin-bottom: 40px;
+            }
+
+            .ad-final-line2 {
+                font-size: 28px;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 5 — O SEGREDO (NOVO VISUAL PREMIUM)
+    ============================================================ */
+        .section-o-segredo {
+            position: relative;
+            padding: 120px 40px;
+            background: #ffffff;
+            overflow: hidden;
+        }
+
+        .segredo-bg {
+            display: none;
+            /* Imagem de fundo removida */
+        }
+
+        .section-o-segredo:hover .segredo-bg {
+            transform: none;
+        }
+
+        .segredo-overlay {
+            display: none;
+            /* Overlay removido pois não há imagem de fundo */
+        }
+
+        .segredo-particles {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+            background-size: 60px 60px;
+            opacity: 0.04;
+            z-index: 3;
+            animation: driftParticles 25s linear infinite;
+        }
+
+        /* EFEITO GANACHE (DIVISOR) */
+        .ganache-divider {
+            position: absolute;
+            top: 0;
+            /* Colocado no topo da próxima seção ou mantendo no bottom da atual */
+            left: 0;
+            width: 100%;
+            height: clamp(60px, 10vw, 150px);
+            display: block;
+            z-index: 5;
+            transform: translateY(-1px) rotate(180deg);
+            /* Se colocado no bottom, inverter? Não, os pings são pra baixo. */
+        }
+
+
+        @keyframes driftParticles {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 60px 60px;
+            }
+        }
+
+        .segredo-container {
+            position: relative;
+            z-index: 4;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .segredo-title {
+            text-align: center;
+            font-family: 'Source Serif 4', serif;
+            font-size: clamp(32px, 5vw, 46px);
+            font-weight: 900;
+            margin-bottom: 25px;
+            line-height: 1.25;
+            animation: fadeSlideUpSec 0.8s ease backwards;
+            transition: all 0.3s ease;
+        }
+
+        .segredo-title:hover {
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        .segredo-title-line1 {
+            display: block;
+            color: #1f2937;
+            /* Preto/Cinza bem escuro */
+        }
+
+        .segredo-title-line2 {
+            display: block;
+            color: #ffffff;
+            /* Ajustado via HTML span colors, mas deixo base preta para default */
+        }
+
+        .seg-preto {
+            color: #111827;
+            font-weight: 900;
+        }
+
+        .seg-laranja {
+            color: #ea580c;
+            font-weight: 800;
+        }
+
+        .seg-verde {
+            color: #16a34a;
+            font-weight: 800;
+        }
+
+        .seg-verde-forte {
+            color: #15803d;
+            font-weight: 900;
+        }
+
+        @keyframes fadeSlideUpSec {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .segredo-subtitle {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #4b5563;
+            /* Cinza escuro para legibilidade no fundo branco */
+            font-size: clamp(16px, 2vw, 19px);
+            line-height: 1.7;
+            font-weight: 500;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            animation: fadeIn 0.8s ease backwards 0.2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* CARD GLASSMORPHISM - MODIFICADO */
+        .segredo-glass-card {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            /* Laranja quente e vibrante */
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(245, 158, 11, 0.3);
+            padding: 40px;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .segredo-glass-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: rotate(45deg) translateY(-100%);
+            animation: shimmerSlide 5s infinite;
+        }
+
+        @keyframes shimmerSlide {
+            0% {
+                transform: rotate(45deg) translateY(-100%);
+            }
+
+            20% {
+                transform: rotate(45deg) translateY(100%);
+            }
+
+            100% {
+                transform: rotate(45deg) translateY(100%);
+            }
+        }
+
+        .segredo-glass-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 40px 70px rgba(0, 0, 0, 0.35);
+        }
+
+        .segredo-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .segredo-list li {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 24px;
+            font-weight: 800;
+            color: #ffffff;
+            /* Branco puro para contrastar com o novo laranja do card */
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            animation: slideInRightList 0.6s ease backwards;
+            width: 100%;
+            justify-content: center;
+        }
+
+        @keyframes slideInRightList {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .segredo-icon-box {
+            width: 45px;
+            height: 45px;
+            background: #e8f5e9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            flex-shrink: 0;
+        }
+
+        .segredo-list li:hover .segredo-icon-box {
+            transform: scale(1.15) translateY(-3px);
+        }
+
+        .segredo-icon-box svg {
+            width: 28px;
+            height: 28px;
+            fill: #16a34a;
+            /* Verde mais vibrante */
+        }
+
+        .segredo-text-bottom {
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #4b5563;
+            /* Cinza escuro */
+            font-weight: 500;
+        }
+
+        .segredo-text-bottom p {
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease backwards 0.8s;
+        }
+
+        .segredo-text-bottom b {
+            color: #4b5936;
+            font-weight: 900;
+        }
+
+        .segredo-final {
+            margin-top: 60px;
+            text-align: center;
+            font-size: clamp(22px, 3.5vw, 32px);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #4b5563;
+            /* Cinza Escuro para texto limpo no fundo branco */
+            animation: fadeIn 1.2s ease backwards 1.2s;
+        }
+
+        .segredo-final span {
+            color: #15803d;
+            /* Verde forte puxando o foco do lucro */
+            font-weight: 900;
+            position: relative;
+            display: inline-block;
+            text-shadow: none;
+            /* Removido o brilho branco fumaça inútil no fundo branco */
+            margin-top: 10px;
+        }
+
+        .segredo-final span::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #15803d;
+            /* Sublinhado verde forte pra combinar */
+            border-radius: 2px;
+            transform-origin: left;
+            animation: expandLines 1.5s ease backwards 1.5s;
+        }
+
+        @keyframes expandLines {
+            from {
+                transform: scaleX(0);
+            }
+
+            to {
+                transform: scaleX(1);
+            }
+        }
+
+        @media (max-width: 900px) {
+            .section-o-segredo {
+                padding: 100px 20px;
+            }
+
+            .segredo-bg {
+                display: none;
+            }
+
+            .segredo-overlay {
+                display: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .section-o-segredo {
+                padding: 80px 25px;
+            }
+
+            .segredo-glass-card {
+                padding: 30px 20px;
+                border-radius: 20px;
+            }
+
+            .segredo-list li {
+                font-size: 20px;
+                justify-content: flex-start;
+            }
+
+            .segredo-icon-box {
+                width: 35px;
+                height: 35px;
+            }
+
+            .segredo-icon-box svg {
+                width: 22px;
+                height: 22px;
+            }
+
+            .segredo-final {
+                font-size: 20px;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 5B — RECEITAS (NOVO VISUAL)
+    ============================================================ */
+        .section-receitas {
+            position: relative;
+            background: linear-gradient(180deg, #f0a82b 0%, #d48f1c 100%);
+            padding: 140px 20px 120px;
+            overflow: hidden;
+            perspective: 1200px;
+        }
+
+        /* FAIXA CHANTILLY / ONDAS */
+        .receitas-chantilly {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            z-index: 10;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .receitas-chantilly svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.1));
+            transform: scaleY(1.2);
+            transform-origin: top;
+        }
+
+        .chantilly-glow {
+            position: absolute;
+            top: 0;
+            left: -300px;
+            width: 250px;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+            transform: skewX(-30deg);
+            animation: chantillyShine 5s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
+            mix-blend-mode: overlay;
+        }
+
+        @keyframes chantillyShine {
+            0% {
+                left: -300px;
+                opacity: 0;
+            }
+
+            5% {
+                opacity: 1;
+            }
+
+            45% {
+                left: 120%;
+                opacity: 1;
+            }
+
+            50% {
+                left: 120%;
+                opacity: 0;
+            }
+
+            100% {
+                left: 120%;
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .receitas-chantilly {
+                height: 35px;
+            }
+
+            .section-receitas {
+                padding-top: 100px;
+            }
+        }
+
+        .receitas-bg-texture {
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20.5h-2zM0 20h20v2H0v-2zm20-20h20v2H20V0zm20 4H20v2h20V4zm0 4H20v2h20V8zm0 4H20v2h20v-2zm0 4H20v2h20v-2zm0 4H20v2h20v-2zm0 4H20v2h20v-2z' fill='%23ffffff' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.8;
+            z-index: 1;
+        }
+
+        .receitas-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .receitas-container {
+            position: relative;
+            z-index: 3;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .receitas-title {
+            text-align: center;
+            font-family: 'Source Serif 4', serif;
+            color: #ffffff;
+            font-size: clamp(26px, 4vw, 36px);
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            animation: fadeSlideUpSec 0.8s ease backwards;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .receitas-title b {
+            font-weight: 900;
+        }
+
+        .receitas-arabesco {
+            width: 35px;
+            height: auto;
+            opacity: 0.9;
+        }
+
+        .receitas-subtitle {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #f3f3f3;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 50px;
+            animation: fadeIn 0.8s ease backwards 0.3s;
+        }
+
+        /* CARD LISTA */
+        .receitas-card-list {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.20);
+            max-width: 850px;
+            margin: 0 auto 60px;
+            transform-style: preserve-3d;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+
+        .receitas-card-list::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            border-radius: 24px;
+            border: 2px solid transparent;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .receitas-card-list:hover {
+            transform: translateY(-8px) rotateX(2deg);
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.25);
+        }
+
+        .receitas-card-list:hover::after {
+            opacity: 1;
+            animation: borderShineMove 2s linear infinite;
+        }
+
+        @keyframes borderShineMove {
+            from {
+                background-position: -200% center;
+            }
+
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        .receitas-list-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px 40px;
+        }
+
+        .receitas-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 17px;
+            font-weight: 700;
+            color: #4b5936;
+            transition: color 0.3s ease;
+            animation: slideInRightList 0.5s ease backwards;
+        }
+
+        .receitas-item:hover {
+            color: #22c55e;
+        }
+
+        .receitas-bullet {
+            width: 12px;
+            height: 12px;
+            background: #22c55e;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+            flex-shrink: 0;
+        }
+
+        /* MOCKUPS */
+        .receitas-mockups {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            perspective: 1200px;
+        }
+
+        .mockup-entrance {
+            animation: fadeSlideUpMockup 0.8s ease backwards;
+        }
+
+        @keyframes fadeSlideUpMockup {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .mockup-entrance:nth-child(1) {
+            animation-delay: 0.15s;
+        }
+
+        .mockup-entrance:nth-child(2) {
+            animation-delay: 0.30s;
+        }
+
+        .mockup-entrance:nth-child(3) {
+            animation-delay: 0.45s;
+        }
+
+        .mockup-entrance:nth-child(4) {
+            animation-delay: 0.60s;
+        }
+
+        .mockup-entrance:nth-child(5) {
+            animation-delay: 0.75s;
+        }
+
+        .mockup-entrance:nth-child(6) {
+            animation-delay: 0.90s;
+        }
+
+        .mockup-entrance:nth-child(7) {
+            animation-delay: 1.05s;
+        }
+
+        .mockup-entrance:nth-child(8) {
+            animation-delay: 1.20s;
+        }
+
+        .mockup-entrance:nth-child(9) {
+            animation-delay: 1.35s;
+        }
+
+        .mockup-entrance:nth-child(10) {
+            animation-delay: 1.50s;
+        }
+
+        .mockup-entrance:nth-child(11) {
+            animation-delay: 1.65s;
+        }
+
+        .mockup-entrance:nth-child(12) {
+            animation-delay: 1.80s;
+        }
+
+        .receita-mockup-wrapper {
+            position: relative;
+            border-radius: 20px;
+            animation: floatMockup 6s ease-in-out infinite;
+        }
+
+        .mockup-entrance:nth-child(1) .receita-mockup-wrapper {
+            animation-delay: 0s;
+        }
+
+        .mockup-entrance:nth-child(2) .receita-mockup-wrapper {
+            animation-delay: -2s;
+        }
+
+        .mockup-entrance:nth-child(3) .receita-mockup-wrapper {
+            animation-delay: -4s;
+        }
+
+        .mockup-entrance:nth-child(4) .receita-mockup-wrapper {
+            animation-delay: -1s;
+        }
+
+        .mockup-entrance:nth-child(5) .receita-mockup-wrapper {
+            animation-delay: -3s;
+        }
+
+        .mockup-entrance:nth-child(6) .receita-mockup-wrapper {
+            animation-delay: -5s;
+        }
+
+        .mockup-entrance:nth-child(7) .receita-mockup-wrapper {
+            animation-delay: -0.5s;
+        }
+
+        .mockup-entrance:nth-child(8) .receita-mockup-wrapper {
+            animation-delay: -2.5s;
+        }
+
+        .mockup-entrance:nth-child(9) .receita-mockup-wrapper {
+            animation-delay: -4.5s;
+        }
+
+        .mockup-entrance:nth-child(10) .receita-mockup-wrapper {
+            animation-delay: -1.5s;
+        }
+
+        .mockup-entrance:nth-child(11) .receita-mockup-wrapper {
+            animation-delay: -3.5s;
+        }
+
+        .mockup-entrance:nth-child(12) .receita-mockup-wrapper {
+            animation-delay: -5.5s;
+        }
+
+        @keyframes floatMockup {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .receita-mockup {
+            border-radius: 20px;
+            border: 4px solid #ffffff;
+            overflow: hidden;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.30);
+            position: relative;
+            transform-style: preserve-3d;
+            transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+            background: #ffffff;
+            /* Reflexo inferior */
+            -webkit-box-reflect: below 5px linear-gradient(transparent 80%, rgba(255, 255, 255, 0.2));
+        }
+
+        .receita-mockup::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+        }
+
+        .receita-mockup img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.7s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .receita-mockup:hover {
+            transform: rotateX(5deg) rotateY(-5deg) translateY(-10px);
+            box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.4);
+        }
+
+        .receita-mockup:hover img {
+            transform: scale(1.05);
+        }
+
+        .receita-mockup:hover::before {
+            opacity: 1;
+        }
+
+        @media (max-width: 900px) {
+            .receitas-list-grid {
+                gap: 20px;
+            }
+
+            .receitas-mockups {
+                gap: 20px;
+            }
+
+            .receita-mockup img {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .receitas-mockups {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .receita-mockup-wrapper:last-child {
+                grid-column: span 2;
+                max-width: 50%;
+                margin: 0 auto;
+            }
+
+            .receita-mockup:hover {
+                transform: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .receitas-chantilly {
+                height: 35px;
+            }
+
+            .section-receitas {
+                padding: 100px 20px 80px;
+            }
+
+            .receitas-card-list {
+                padding: 30px 20px;
+            }
+
+            .receitas-list-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .receitas-title {
+                font-size: 22px;
+                flex-direction: column;
+            }
+
+            .receitas-mockups {
+                grid-template-columns: 1fr;
+            }
+
+            .receita-mockup-wrapper:last-child {
+                grid-column: span 1;
+                max-width: 100%;
+            }
+
+            .receitas-arabesco {
+                width: 30px;
+            }
+
+            .receitas-card-list:hover {
+                transform: translateY(-4px);
+            }
+
+            .receita-mockup:hover {
+                transform: scale(1.02);
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 5C — COBERTURAS E RECHEIOS
+    ============================================================ */
+        .section-coberturas {
+            position: relative;
+            background: var(--cinza-claro);
+            padding: 140px 20px 120px;
+            overflow: hidden;
+            perspective: 1200px;
+        }
+
+        .coberturas-chantilly {
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .coberturas-chantilly svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transform: scaleY(1.2);
+            transform-origin: top;
+            filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.1));
+        }
+
+        .coberturas-container {
+            position: relative;
+            z-index: 3;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .coberturas-title {
+            text-align: center;
+            font-family: 'Source Serif 4', serif;
+            color: var(--marrom);
+            font-size: clamp(26px, 4vw, 36px);
+            font-weight: 600;
+            margin-bottom: 15px;
+            animation: fadeSlideUpSec 0.8s ease backwards;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .coberturas-title b {
+            font-weight: 900;
+        }
+
+        .coberturas-title .destaque-verde {
+            color: #f0a82b;
+        }
+
+        .coberturas-arabesco {
+            width: 35px;
+            height: auto;
+            opacity: 0.9;
+        }
+
+        .coberturas-subtitle {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--marrom);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 50px;
+            opacity: 0.8;
+            animation: fadeIn 0.8s ease backwards 0.3s;
+        }
+
+        /* CARD LISTA COBERTURAS */
+        .coberturas-card-list {
+            background: #f0a82b;
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+            max-width: 850px;
+            margin: 0 auto 60px;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+
+        .coberturas-card-list:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.20);
+        }
+
+        .coberturas-list-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px 40px;
+        }
+
+        .coberturas-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 17px;
+            font-weight: 700;
+            color: #ffffff;
+            transition: color 0.3s ease;
+            animation: slideInRightList 0.5s ease backwards;
+        }
+
+        .coberturas-item:hover {
+            color: #e5ffdf;
+        }
+
+        .coberturas-bullet {
+            width: 12px;
+            height: 12px;
+            background: #22c55e;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 600px) {
+            .coberturas-chantilly {
+                height: 35px;
+            }
+
+            .section-coberturas {
+                padding: 100px 20px 80px;
+            }
+
+            .coberturas-card-list {
+                padding: 30px 20px;
+            }
+
+            .coberturas-list-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .coberturas-title {
+                font-size: 22px;
+                flex-direction: column;
+            }
+
+            .coberturas-arabesco {
+                width: 30px;
+            }
+
+            .coberturas-card-list:hover {
+                transform: translateY(-4px);
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 6 — OFERTA (NOVA MODERNA)
+    ============================================================ */
+        .section-oferta {
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #f9f9f9 0%, #e8f5e9 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .oferta-parallax-bg {
+            position: absolute;
+            inset: 0;
+            background: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M54.627 0l.83.83-54.627 54.627-.83-.83z" fill="%23f0a82b" fill-opacity="0.05" fill-rule="evenodd"/%3E%3C/svg%3E');
+            opacity: 0.8;
+            z-index: 1;
+            transform: translateZ(-1px) scale(2);
+        }
+
+        .oferta-main-title {
+            text-align: center;
+            font-size: clamp(24px, 4vw, 36px);
+            font-weight: 900;
+            color: var(--marrom);
+            margin-bottom: 50px;
+            position: relative;
+            z-index: 2;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            padding: 0 20px;
+        }
+
+        .oferta-main-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #f0a82b;
+            margin: 15px auto 0;
+            border-radius: 4px;
+        }
+
+        .oferta-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        /* CARD BÁSICO */
+        .plan-card {
+            background: #ffffff;
+            border-radius: 30px;
+            padding: 50px 40px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(148, 164, 118, 0.1);
+            animation: fadeSlideUpSec 0.8s ease backwards;
+        }
+
+        .plan-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+        }
+
+        .plan-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .plan-subtitle {
+            font-size: 14px;
+            font-weight: 700;
+            color: #f0a82b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .plan-title {
+            font-family: 'Source Serif 4', serif;
+            font-size: 26px;
+            font-weight: 900;
+            color: #4b5936;
+            line-height: 1.2;
+        }
+
+        .plan-mockup-area {
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .plan-mockup-img {
+            max-height: 100%;
+            border-radius: 12px;
+            animation: floatLight 4s ease-in-out infinite;
+            filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.15));
+            transition: all 0.3s ease;
+        }
+
+        @keyframes floatLight {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .book-mockup-3d {
+            position: relative;
+            height: 100%;
+            display: inline-block;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+        }
+
+        .book-mockup-3d img {
+            height: 100%;
+            width: auto;
+            border-radius: 8px;
+            display: block;
+            position: relative;
+            z-index: 2;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .book-mockup-3d-premium {
+            position: relative;
+            height: 100%;
+            display: inline-block;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), 0 0 40px rgba(248, 181, 0, 0.15);
+            border-radius: 8px;
+        }
+
+        .book-mockup-3d-premium img {
+            height: 100%;
+            width: auto;
+            border-radius: 8px;
+            display: block;
+            position: relative;
+            z-index: 2;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* PRICING CSS */
+        .pricing-section {
+            text-align: center;
+            margin-bottom: 25px;
+            animation: fadeInRightList 0.6s ease forwards;
+        }
+
+        .old-price {
+            font-size: 14px;
+            color: #999;
+            text-decoration: line-through;
+            font-weight: 700;
+        }
+
+        .price-small {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 2px;
+            font-weight: 600;
+        }
+
+        .main-price {
+            font-size: 48px;
+            font-weight: 900;
+            color: #22c55e;
+            line-height: 1;
+            margin-bottom: 12px;
+            text-shadow: 0 4px 15px rgba(34, 197, 94, 0.25);
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            animation: scaleInPrice 0.8s ease backwards;
+        }
+
+        @keyframes scaleInPrice {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .price-benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            font-size: 13px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .pricing-highlight-box {
+            position: relative;
+            background: linear-gradient(135deg, #ffc107 0%, #ff7500 100%);
+            border-radius: 24px;
+            padding: 25px 20px 20px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 15px 35px rgba(255, 123, 0, 0.4);
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .pricing-highlight-box::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 0%, transparent 60%);
+            z-index: -1;
+        }
+
+        .premium-list-footer-new {
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .flash-alert {
+            display: inline-block;
+            animation: vibrateAlert 3s infinite;
+            background: rgba(255, 0, 0, 0.1);
+            padding: 4px 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        @keyframes vibrateAlert {
+
+            0%,
+            90% {
+                transform: translate3d(0, 0, 0);
+            }
+
+            92% {
+                transform: translate3d(-3px, 0, 0);
+            }
+
+            94% {
+                transform: translate3d(3px, 0, 0);
+            }
+
+            96% {
+                transform: translate3d(-3px, 0, 0);
+            }
+
+            98% {
+                transform: translate3d(3px, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .pricing-premium .old-price {
+            color: #ff3333;
+            font-size: 16px;
+            font-weight: 800;
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        .pricing-premium .old-price::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -5%;
+            width: 0;
+            height: 2px;
+            background: #d80000;
+            animation: strikeThrough 0.8s ease forwards 0.5s;
+            box-shadow: 0 0 5px rgba(216, 0, 0, 0.5);
+        }
+
+        @keyframes strikeThrough {
+            to {
+                width: 110%;
+            }
+        }
+
+        .pricing-premium .price-small {
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 800;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .pricing-premium .main-price {
+            font-size: 80px;
+            color: #ffffff;
+            font-weight: 900;
+            letter-spacing: -3px;
+            text-shadow:
+                2px 0 0 #111111, -2px 0 0 #111111, 0 2px 0 #111111, 0 -2px 0 #111111,
+                1px 1px 0 #111111, -1px -1px 0 #111111, 1px -1px 0 #111111, -1px 1px 0 #111111,
+                2px 2px 0 #111111, -2px -2px 0 #111111, 2px -2px 0 #111111, -2px 2px 0 #111111,
+                0 4px 0px #111111,
+                0 8px 25px rgba(0, 0, 0, 0.6);
+            position: relative;
+        }
+
+        .main-price-shine {
+            display: none;
+        }
+
+        .pricing-premium .price-benefits {
+            color: #ffffff;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .pricing-premium .price-benefits span {
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            font-size: 15px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .pricing-premium .price-benefits span:hover {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+            transform: scale(1.05);
+        }
+
+        .countdown-timer {
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 800;
+            color: #fff;
+            margin-top: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .premium-price-seal {
+            position: absolute;
+            background: #22c55e;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 900;
+            padding: 6px 14px;
+            border-radius: 20px;
+            top: -5px;
+            right: -60px;
+            transform: rotate(8deg);
+            box-shadow: 0 6px 15px rgba(34, 197, 94, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.4);
+            white-space: nowrap;
+            animation: jiggleSeal 4s infinite ease-in-out;
+            z-index: 10;
+        }
+
+        @keyframes jiggleSeal {
+
+            0%,
+            90% {
+                transform: rotate(8deg) scale(1);
+            }
+
+            92% {
+                transform: rotate(3deg) scale(1.15);
+            }
+
+            96% {
+                transform: rotate(13deg) scale(1.15);
+            }
+
+            100% {
+                transform: rotate(8deg) scale(1);
+            }
+        }
+
+        .plan-list {
+            list-style: none;
+            flex-grow: 1;
+            margin-bottom: 40px;
+        }
+
+        .plan-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 15px;
+            opacity: 0;
+            animation: fadeInRightList 0.5s ease forwards;
+        }
+
+        .plan-card .plan-list li:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .plan-card .plan-list li:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .plan-card .plan-list li:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .plan-card .plan-list li:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .plan-card .plan-list li:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .plan-card .plan-list li:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+
+        .plan-card .plan-list li:nth-child(7) {
+            animation-delay: 0.7s;
+        }
+
+        .plan-card .plan-list li:nth-child(8) {
+            animation-delay: 0.8s;
+        }
+
+        .plan-card .plan-list li:nth-child(9) {
+            animation-delay: 0.9s;
+        }
+
+        .plan-card .plan-list li:nth-child(10) {
+            animation-delay: 1s;
+        }
+
+        @keyframes fadeInRightList {
+            from {
+                opacity: 0;
+                transform: translateX(-15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .check-icon {
+            width: 26px;
+            height: 26px;
+            background: #00d615;
+            box-shadow: 0 0 10px rgba(0, 214, 21, 0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+            margin-right: 4px;
+            border: none;
+        }
+
+        .check-icon svg {
+            width: 16px;
+            height: 16px;
+            fill: #ffffff;
+            stroke: #ffffff;
+            stroke-width: 1px;
+        }
+
+        .plan-card:hover .check-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        .btn-plan {
+            display: block;
+            text-align: center;
+            padding: 18px 30px;
+            border-radius: 100px;
+            font-weight: 700;
+            font-size: 17px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            animation: scaleInPrice 0.8s ease backwards 0.2s;
+        }
+
+        .btn-basic {
+            background: #fdfdfd;
+            color: #f0a82b;
+            border: 2px solid #f0a82b;
+            box-shadow: 0 4px 15px rgba(143, 160, 107, 0.1);
+        }
+
+        .btn-basic:hover {
+            background: #f0a82b;
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(143, 160, 107, 0.3);
+        }
+
+        /* CARD PREMIUM */
+        .plan-premium {
+            background-color: #f7b71d;
+            color: #fff;
+            transform: scale(1.05);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 40px 90px rgba(0, 0, 0, 0.25);
+            z-index: 2;
+            position: relative;
+            border-radius: 30px;
+        }
+
+        .plan-premium::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: url('https://i.postimg.cc/K8kvQ3cd/images.jpg');
+            background-size: 130% auto;
+            background-position: center 30%;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            z-index: 0;
+            pointer-events: none;
+            clip-path: inset(0 round 30px);
+            -webkit-mask-image: radial-gradient(ellipse at center 30%, black 40%, transparent 75%);
+            mask-image: radial-gradient(ellipse at center 30%, black 40%, transparent 75%);
+        }
+
+        .plan-premium::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(255, 200, 50, 0.05) 0%, rgba(130, 50, 0, 0.8) 100%);
+            z-index: 0;
+            pointer-events: none;
+            clip-path: inset(0 round 30px);
+        }
+
+        .plan-premium>* {
+            position: relative;
+            z-index: 1;
+        }
+
+        .plan-premium:hover {
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 50px 110px rgba(0, 0, 0, 0.6);
+        }
+
+        .premium-badge {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+            color: #4b5936;
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            box-shadow: 0 10px 20px rgba(248, 181, 0, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            animation: floatBadge 3s ease-in-out infinite;
+            white-space: nowrap;
+        }
+
+        @keyframes floatBadge {
+
+            0%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            50% {
+                transform: translateX(-50%) translateY(-5px);
+            }
+        }
+
+        .plan-premium .plan-title {
+            color: #ffffff;
+            font-size: 28px;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .plan-premium .plan-subtitle {
+            color: #fceabb;
+            font-size: 16px;
+            font-weight: 800;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+        }
+
+        .premium-list-header {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 4px 15px rgba(255, 255, 255, 0.4), 0 2px 4px rgba(0, 0, 0, 0.8);
+            position: relative;
+        }
+
+        .list-plus {
+            font-weight: 900;
+            font-size: 26px !important;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 25px !important;
+            color: #ffffff;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+        }
+
+        .list-plus-highlight {
+            color: #00d615;
+            font-size: 34px;
+            text-shadow: 0 0 15px rgba(0, 214, 21, 0.8);
+            -webkit-text-fill-color: #00d615;
+            margin-left: 8px;
+            animation: pulsePlus 2s infinite ease-in-out;
+        }
+
+        @keyframes pulsePlus {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+        .premium-list-footer {
+            color: #fceabb;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: -15px;
+            margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .plan-premium .plan-mockup-area {
+            height: 440px;
+            margin-top: 25px;
+            margin-bottom: 45px;
+        }
+
+        .plan-premium .book-mockup-3d-premium {
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 50px rgba(248, 181, 0, 0.2);
+        }
+
+        .plan-premium .plan-list li {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 17px;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-premium {
+            background: linear-gradient(135deg, #22c55e 0%, #f0a82b 100%);
+            color: #ffffff;
+            box-shadow: 0 15px 35px rgba(34, 197, 94, 0.4);
+            animation: pulseBtn 2s infinite, scaleInPrice 0.8s ease backwards 0.3s;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .btn-premium::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.8), transparent);
+            transform: skewX(-20deg);
+            animation: shineSweep 3s infinite 1s;
+            z-index: -1;
+        }
+
+        @keyframes shineSweep {
+            0% {
+                left: -150%;
+            }
+
+            100% {
+                left: 200%;
+            }
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 45px rgba(34, 197, 94, 0.6);
+        }
+
+        @keyframes pulseBtn {
+            0% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(248, 181, 0, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(248, 181, 0, 0);
+            }
+        }
+
+        .list-plus .check-icon {
+            display: none;
+        }
+
+        @media (max-width: 900px) {
+            .oferta-container {
+                grid-template-columns: 1fr;
+                gap: 60px;
+                max-width: 500px;
+            }
+
+            .plan-premium {
+                transform: scale(1);
+            }
+
+            .plan-premium:hover {
+                transform: translateY(-10px);
+            }
+
+            .plan-premium::before {
+                inset: -2px;
+            }
+
+            .plan-premium .plan-mockup-area {
+                height: 380px;
+                margin-top: 15px;
+                margin-bottom: 35px;
+            }
+
+            .plan-premium .plan-mockup-img {
+                animation: floatLight 4s ease-in-out infinite;
+                transform: scale(1);
+            }
+
+            @keyframes floatStrong {
+
+                0%,
+                100% {
+                    transform: translateY(0) scale(1);
+                }
+
+                50% {
+                    transform: translateY(-8px) scale(1);
+                }
+            }
+        }
+
+        @media (max-width: 600px) {
+            .section-oferta {
+                padding: 80px 20px;
+            }
+
+            .plan-card {
+                padding: 40px 25px;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 6B — GARANTIA (NOVA "RISCO ZERO")
+    ============================================================ */
+        .section-garantia {
+            background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+            padding: 120px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .garantia-bg-image {
+            position: absolute;
+            inset: 0;
+            background: url('data:image/svg+xml;utf8,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+            opacity: 0.1;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .garantia-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(217, 119, 6, 0.2) 0%, rgba(180, 83, 9, 0.4) 100%);
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .garantia-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 3;
+            background: rgba(0, 0, 0, 0.15);
+            padding: 60px 40px 50px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .garantia-selo-wrap {
+            margin: -120px auto 30px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .garantia-selo-img {
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+            position: relative;
+            animation: sealPopIn 1.2s ease forwards;
+            filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.4));
+            transition: transform 0.3s ease;
+        }
+
+        .garantia-selo-img:hover {
+            transform: scale(1.05) translateY(-3px) rotate(2deg);
+        }
+
+        @keyframes sealPopIn {
+            0% {
+                transform: scale(0.8) translateY(20px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1) translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .garantia-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: clamp(28px, 5vw, 42px);
+            line-height: 1.2;
+            margin-bottom: 25px;
+            color: #ffffff;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 2px;
+            animation: fadeSlideUp 0.8s ease backwards 0.2s;
+        }
+
+        .garantia-title span.dourado {
+            color: #fcd34d;
+            font-weight: 900;
+        }
+
+        .garantia-desc {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+            animation: fadeSlideUp 0.8s ease backwards 0.4s;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .garantia-desc strong.dourado {
+            color: #fde047;
+            font-weight: 800;
+            font-size: 19px;
+            letter-spacing: 0.5px;
+        }
+
+        .garantia-trust-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px auto 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: fit-content;
+            text-align: left;
+            animation: fadeSlideUp 0.8s ease backwards 0.6s;
+        }
+
+        .garantia-trust-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .garantia-trust-list svg {
+            width: 22px;
+            height: 22px;
+            fill: #4ade80;
+            /* Soft green */
+            flex-shrink: 0;
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+        }
+
+        @media (max-width: 768px) {
+            .garantia-container {
+                padding: 50px 20px 40px;
+                margin-top: 60px;
+            }
+
+            .garantia-selo-wrap {
+                margin-top: -100px;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO 7 — SOBRE
+    ============================================================ */
+        .section-sobre {
+            position: relative;
+            padding: 0 0 80px 0;
+            /* Remove top padding to let image touch top bound if needed, or just let the image fill top to edge */
+            background: #fff;
+        }
+
+        .sobre-flex {
+            display: flex;
+            flex-direction: column;
+            /* Coloca a imagem gigantesca empilhando com o texto */
+            gap: 40px;
+            align-items: center;
+            text-align: center;
+            padding-top: 50px;
+            /* Recuperar a margem superior de descompressao para os textos após a imagem gigante */
+        }
+
+        .sobre-foto {
+            width: 100%;
+            /* Largura total da section (100vw) */
+            border-radius: 0;
+            /* Removido para tocar os limites da tela */
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            /* Adiciona um peso chique pra imagem gigante */
+        }
+
+        .sobre-conteudo h2 {
+            font-family: 'Source Serif 4', serif;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .sobre-conteudo p {
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .sobre-mockup-area {
+            width: 100%;
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .sobre-mockup-area img {
+            display: block;
+            margin: 0 auto;
+            max-width: 950px;
+            width: 95%;
+            height: auto;
+            filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.15));
+        }
+
+        /* ============================================================
+       RESPONSIVO
+    ============================================================ */
+        @media (max-width: 900px) {
+            .hero-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-right {
+                flex: none;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .problemas-grid,
+            .solucao-grid,
+            .checklist-segredo {
+                grid-template-columns: 1fr;
+            }
+
+            .receitas-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .sobre-flex {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .sobre-foto {
+                flex: none;
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        /* ============================================================
+       SEÇÃO DEPOIMENTOS
+    ============================================================ */
+        .section-depoimentos {
+            position: relative;
+            background-color: #ffffff;
+            /* Fundo branco puro como solicitado */
+            padding: 100px 20px;
+            overflow: hidden;
+        }
+
+        .depoimentos-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .depoimentos-title-wrapper {
+            text-align: center;
+            margin-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            animation: fadeIn 1s ease backwards;
+        }
+
+        .depoimentos-title {
+            font-family: 'Source Serif 4', serif;
+            font-size: clamp(28px, 4vw, 40px);
+            font-weight: 700;
+            color: var(--marrom);
+            line-height: 1.3;
+        }
+
+        .depoimentos-title .verde-suave {
+            color: #6b7d53;
+            display: inline;
+        }
+
+        .depoimentos-arabesco {
+            width: 45px;
+            opacity: 0.8;
+            height: auto;
+        }
+
+        .depoimentos-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            align-items: start;
+        }
+
+        .depoimentos-card {
+            background: #ffffff;
+            border: 3px solid #7c9360;
+            /* moldura verde suave */
+            border-radius: 12px;
+            padding: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .depoimentos-card img {
+            border-radius: 6px;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            image-rendering: auto;
+        }
+
+        .depoimentos-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 32px rgba(124, 147, 96, 0.25);
+        }
+
+        @media (max-width: 992px) {
+            .depoimentos-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .depoimentos-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                max-width: 100%;
+            }
+
+            .depoimentos-card {
+                padding: 6px;
+                border-width: 2px;
+                border-radius: 10px;
+            }
+
+            .depoimentos-card img {
+                border-radius: 5px;
+            }
+
+            .depoimentos-card:hover {
+                transform: none;
+                /* remove hover no mobile */
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+                /* mantem sombra original suave */
+            }
+
+            .depoimentos-title-wrapper {
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            .depoimentos-arabesco {
+                width: 30px;
+                margin-top: 8px;
+            }
+        }
+
+        /* ============================================================
+           ANIMAÇÕES DA SEÇÃO SOLUÇÃO (BANNER PRINCIPAL)
+        ============================================================ */
+        .ds-bloco-solucao {
+            position: relative;
+            padding: 40px 20px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, rgba(200, 130, 20, 0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(200, 130, 20, 0) 100%);
+            background-size: 200% 200%;
+            animation: subtlyMoveBg 8s ease-in-out infinite alternate;
+            z-index: 5;
+        }
+
+        @keyframes subtlyMoveBg {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        /* Partículas simuladas dinâmicas */
+        .solucao-animated-bg::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+            background-size: 35px 35px;
+            opacity: 0.6;
+            animation: slowDrift 20s linear infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes slowDrift {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 0 100px;
+            }
+        }
+
+        /* Título - A Solução Que */
+        .solucao-title-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 2;
+            position: relative;
+        }
+
+        .anim-title-top {
+            display: block;
+            opacity: 0;
+            transform: translateY(15px);
+            animation: fadeUpIn 0.8s ease forwards 0.2s;
+        }
+
+        /* Título Principal - Vai Transformar Sua Vida */
+        .anim-title-main {
+            display: block;
+            position: relative;
+            opacity: 0;
+            transform: scale(0.95);
+            animation: popInTitle 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 0.6s;
+            overflow: hidden;
+            padding-bottom: 5px;
+            /* pra não cortar brilho */
+        }
+
+        /* Brilho passando pelo texto */
+        .shine-effect {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: skewX(-20deg);
+            animation: shineAcross 3s ease-in-out infinite 2s;
+            pointer-events: none;
+        }
+
+        @keyframes fadeUpIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes popInTitle {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes shineAcross {
+            0% {
+                left: -100%;
+            }
+
+            30% {
+                left: 200%;
+            }
+
+            100% {
+                left: 200%;
+            }
+        }
+
+        /* Efeitos no Subtítulo */
+        .solucao-subtitle-anim {
+            position: relative;
+            z-index: 2;
+        }
+
+        .anim-word-1,
+        .anim-word-2,
+        .anim-word-3 {
+            display: inline-block;
+            opacity: 0;
+            transform: scale(0.98);
+        }
+
+        .anim-word-1 {
+            animation: highlightPop 0.6s ease forwards 1.2s;
+            color: #ffcc00;
+            /* Amarelo Forte */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 4px rgba(0, 0, 0, 0.5);
+            /* Contorno Preto */
+        }
+
+        .anim-word-2 {
+            animation: highlightPopGlow 0.6s ease forwards 1.6s, pulseGlow 2s ease-in-out infinite 2.2s;
+            color: #22c55e;
+            /* Verde Forte */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 4px rgba(0, 0, 0, 0.5);
+            /* Contorno Preto */
+        }
+
+        .anim-word-3 {
+            animation: highlightPop 0.6s ease forwards 2s;
+            color: #ef4444;
+            /* Vermelho Forte */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 4px rgba(0, 0, 0, 0.5);
+            /* Contorno Preto */
+        }
+
+        .solucao-color-top {
+            color: #ffcc00;
+            /* Amarelo Forte */
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 5px rgba(0, 0, 0, 0.4);
+            /* Contorno Preto */
+        }
+
+        .solucao-color-main {
+            text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2), 1px -1px 0 rgba(0, 0, 0, 0.2), -1px 1px 0 rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        .solucao-color-destaque {
+            color: #ffcc00;
+            /* Amarelo Forte */
+            font-style: italic;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 12px rgba(255, 204, 0, 0.5);
+            /* Contorno Preto */
+        }
+
+        @keyframes highlightPop {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes highlightPopGlow {
+            to {
+                opacity: 1;
+                transform: scale(1.05);
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 10px rgba(34, 197, 94, 0.7);
+            }
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                transform: scale(1.05);
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 10px rgba(34, 197, 94, 0.7);
+            }
+
+            50% {
+                transform: scale(1.02);
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 4px rgba(34, 197, 94, 0.3);
+            }
+        }
+
+        /* Ícones Decorativos Flutuantes */
+        .solucao-float-icon {
+            position: absolute;
+            opacity: 0.2;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .icon-1 {
+            top: -10px;
+            left: -10px;
+            width: 45px;
+            animation: floatRotate 6s ease-in-out infinite;
+        }
+
+        .icon-2 {
+            bottom: -10px;
+            right: -5px;
+            width: 35px;
+            animation: floatRotate 7s ease-in-out infinite reverse 1s;
+        }
+
+        .icon-3 {
+            top: 20%;
+            right: 10px;
+            width: 30px;
+            animation: floatRotate 5s ease-in-out infinite 2s;
+        }
+
+        .icon-4 {
+            bottom: 20%;
+            left: 0px;
+            width: 40px;
+            animation: floatRotate 8s ease-in-out infinite reverse 0.5s;
+        }
+
+        @keyframes floatRotate {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-12px) rotate(8deg);
+            }
+        }
+
+        /* EFEITO GANACHE (DIVIDERS UNIVERSAIS) */
+        .ganache-divider-global {
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 100%;
+            height: clamp(30px, 8vw, 100px);
+            z-index: 10;
+            pointer-events: none;
+        }
+    </style>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1606907960551442');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1606907960551442&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+    <!-- SVG DEFS PARA GANACHE DIVIDER -->
+    <svg width="0" height="0" style="display:none;">
+        <defs>
+            <filter id="ganacheDropShadow" x="-10%" y="-10%" width="120%" height="150%">
+                <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.12" />
+            </filter>
+            <filter id="ganacheHighlight" x="-10%" y="-10%" width="120%" height="150%">
+                <feOffset dx="-2" dy="-3" in="SourceAlpha" result="offsetAlpha" />
+                <feGaussianBlur stdDeviation="3" in="offsetAlpha" result="blurAlpha" />
+                <feComposite operator="arithmetic" k2="-1" k3="1" in2="SourceAlpha" result="innerHighlight" />
+                <feFlood flood-color="#ffffff" flood-opacity="0.2" />
+                <feComposite operator="in" in2="innerHighlight" />
+                <feMerge>
+                    <feMergeNode in="SourceGraphic" />
+                    <feMergeNode />
+                </feMerge>
+            </filter>
+        </defs>
+        <symbol id="ganache-drip" viewBox="0 0 1440 180" preserveAspectRatio="none">
+            <path fill="currentColor" filter="url(#ganacheDropShadow) url(#ganacheHighlight)" d="
+                M 0,20 
+                C 15,20 20,80 30,80 C 40,80 45,20 60,20
+                C 75,20 80,40 90,40 C 100,40 105,20 120,20
+                C 140,20 147,130 160,130 C 173,130 180,20 200,20
+                C 217,20 223,60 235,60 C 247,60 253,20 270,20
+                C 292,20 300,100 315,100 C 330,100 338,20 360,20
+                C 375,20 380,35 390,35 C 400,35 405,20 420,20
+                C 440,20 447,85 460,85 C 473,85 480,20 500,20
+                C 520,20 527,140 540,140 C 553,140 560,20 580,20
+                C 597,20 603,50 615,50 C 627,50 633,20 650,20
+                C 672,20 680,115 695,115 C 710,115 718,20 740,20
+                C 757,20 763,45 775,45 C 787,45 793,20 810,20
+                C 832,20 840,95 855,95 C 870,95 878,20 900,20
+                C 920,20 927,125 940,125 C 953,125 960,20 980,20
+                C 995,20 1000,30 1010,30 C 1020,30 1025,20 1040,20
+                C 1062,20 1070,105 1085,105 C 1100,105 1108,20 1130,20
+                C 1147,20 1153,65 1165,65 C 1177,65 1183,20 1200,20
+                C 1220,20 1227,135 1240,135 C 1253,135 1260,20 1280,20
+                C 1297,20 1303,55 1315,55 C 1327,55 1333,20 1350,20
+                C 1372,20 1380,90 1395,90 C 1410,90 1418,20 1440,20
+                L 1440,0 L 0,0 Z" />
+        </symbol>
+    </svg>
+
+    <!-- ============================================================
+     SEÇÃO 1 — HERO
+============================================================ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <h1 class="hero-titulo" style="margin: 0; padding: 0;">
+                        <span
+                            style="display:block; color:#ea580c; font-size:clamp(20px, 5vw, 32px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1.2; text-shadow: 0 1px 2px rgba(0,0,0,0.1); margin-bottom: 5px; text-transform: uppercase;">500
+                            Receitas de</span>
+                        <span
+                            style="display:block; color:#451a03; font-size:clamp(28px, 6.5vw, 45px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1.1; text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 6px 15px rgba(0,0,0,0.15); padding: 5px 0;">Bolos
+                            saudáveis, fofinhos e deliciosos</span>
+                        <span
+                            style="display:block; color:#ea580c; font-size:clamp(20px, 5vw, 32px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1.2; text-shadow: 0 1px 2px rgba(0,0,0,0.1); margin-top: 5px; text-transform: uppercase;">Para
+                            comer sem culpa</span>
+                    </h1>
+
+                    <!-- ESPAÇO PARA O VSL STORY -->
+                    <div class="vsl-aviso">
+                        ⚠️ Aviso: esta aula expira em breve!
+                    </div>
+                    <div class="vsl-story-wrap" id="vsl-container">
+                        <video id="vsl-video" playsinline preload="metadata" poster="vsl-thumbnail.jpg"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                            <source src="vsl-hero.mp4" type="video/mp4">
+                        </video>
+                        <div class="vsl-play-btn" id="vsl-play-btn" style="z-index: 3; pointer-events: none;">
+                            <div class="vsl-play-text">Assistir vídeo</div>
+                            <div class="vsl-play-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="vsl-ended-screen" id="vsl-ended-screen" style="display: none;">
+                            <span class="vsl-ended-text">Clique em continuar</span>
+                            <svg class="vsl-ended-arrow" viewBox="0 0 24 24">
+                                <path d="M4 10h5v-8h6v8h5l-8 12z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta-wrap">
+                        <div class="hero-cta-border"></div>
+                        <a href="#proxima-secao" class="btn-hero">
+                            CONTINUAR
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     NOVA GALERIA ABAIXO DO HERO
+============================================================ -->
+    <section class="hero-gallery" id="proxima-secao">
+        <div class="hg-grid">
+            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559171574256.jpg"
+                alt="Bolo Sem Glúten 1" loading="lazy">
+            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_175367073735755917974972.jpg"
+                alt="Bolo Sem Glúten 2" loading="lazy">
+            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559172933068.jpg"
+                alt="Bolo Sem Glúten 3" loading="lazy">
+            <img src="https://i.postimg.cc/W3spWtzB/c4165f964bdf447c903864ebf672.webp" alt="Bolo Sem Glúten 4"
+                loading="lazy">
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 2 E 3 — DORES E SOLUÇÃO
+============================================================ -->
+    <section class="section-dores-solucao">
+        <div class="ds-overlay"></div>
+        <div class="ds-container">
+
+            <!-- BLOCO 1: DORES -->
+            <div class="ds-bloco">
+                <h2 class="ds-title" style="align-items: center;">
+                    <span style="text-align: center; margin: 0; padding: 0;">
+                        <span
+                            style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-bottom: 5px;">Você
+                            Reconhece</span>
+                        <span
+                            style="display:block; color:#451a03; font-size:clamp(40px, 10vw, 65px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1; text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 6px 15px rgba(0,0,0,0.4);">Essas
+                            Situações</span>
+                        <span
+                            style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-top: 5px;">Dolorosas?</span>
+                    </span>
+                </h2>
+
+                <div class="ds-grid">
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🤢</div>
+                        <div class="ds-card-title">Enjoo e Mal-Estar</div>
+                        <div class="ds-card-text">Você come um pedaço de bolo e em poucos minutos sente náusea, tontura
+                            e um mal-estar terrível que estraga completamente <span style="color:#d97706;">seu momento
+                                de prazer</span>.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🔥</div>
+                        <div class="ds-card-title">Inflamação e Inchaço</div>
+                        <div class="ds-card-text">Seu corpo inflama, você fica inchado(a), com dores nas articulações e
+                            uma sensação de peso que <span style="color:#ef4444;">pode durar dias</span> após comer um
+                            simples doce.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">😔</div>
+                        <div class="ds-card-title">Perda de Prazer</div>
+                        <div class="ds-card-text">Aquela alegria simples de saborear um doce virou um pesadelo. Você
+                            sente saudade de quando podia comer sem medo das consequências.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">📈</div>
+                        <div class="ds-card-title">Picos de Glicose</div>
+                        <div class="ds-card-text">Sua glicemia dispara, você sente palpitações, suor frio, tremores… E
+                            depois vem aquela queda brusca que deixa você exausto(a) e irritado(a).</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">😢</div>
+                        <div class="ds-card-title">Culpa e Frustração</div>
+                        <div class="ds-card-text">Você se priva de momentos especiais, festas de aniversário,
+                            celebrações… Sempre com medo de passar mal e estragar tudo.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🚫</div>
+                        <div class="ds-card-title">Isolamento Social</div>
+                        <div class="ds-card-text">"Não posso comer isso", "Obrigado, mas não posso"… Você vive se
+                            excluindo e explicando suas restrições enquanto outros aproveitam.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCO 2: SOLUÇÃO -->
+            <div class="ds-bloco ds-bloco-solucao solucao-animated-bg">
+                <!-- Ícones decorativos flotantes -->
+                <img src="https://img.icons8.com/ios/50/ffffff/cake.png" class="solucao-float-icon icon-1"
+                    alt="Bolo Decorativo">
+                <img src="https://img.icons8.com/ios/50/ffffff/sweet-16.png" class="solucao-float-icon icon-2"
+                    alt="Bolo Decorativo">
+                <img src="https://img.icons8.com/ios/50/ffffff/confectionery.png" class="solucao-float-icon icon-3"
+                    alt="Bolo Decorativo">
+                <img src="https://img.icons8.com/ios/50/ffffff/cupcake.png" class="solucao-float-icon icon-4"
+                    alt="Bolo Decorativo">
+
+                <h2 class="ds-title ds-title-mix"
+                    style="align-items: center; flex-direction: row; flex-wrap: wrap; text-align: center; justify-content: center;">
+                    <div class="solucao-title-wrap" style="text-align: center; margin: 0; padding: 0;">
+                        <span class="anim-title-top"
+                            style="display:block; color:#ffffff; font-size:clamp(24px, 5vw, 36px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-bottom: 5px;">A
+                            Solução Que</span>
+                        <span class="anim-title-main"
+                            style="display:block; color:#451a03; font-size:clamp(32px, 7vw, 50px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1; text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 6px 15px rgba(0,0,0,0.4); overflow: hidden; position: relative;">Vai
+                            Transformar<span class="shine-effect"></span></span>
+                        <span class="anim-title-main"
+                            style="display:block; color:#ffffff; font-size:clamp(24px, 5vw, 36px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-top: 5px;">Sua
+                            Vida</span>
+                    </div>
+                </h2>
+                <p class="ds-subtitle solucao-subtitle-anim">
+                    <span class="ds-subtitle-destaque anim-word-1">BOLOS DO BEM:</span> <span
+                        style="color:#ffffff; font-weight: 500;">O
+                        único ebook com receitas que
+                        seu corpo vai</span>
+                    <span class="ds-subtitle-upper anim-word-2">AGRADECER</span> <span
+                        style="color:#ffffff; font-weight: 500;">em vez
+                        de</span> <span class="ds-subtitle-upper anim-word-3">REJEITAR</span>
+                </p>
+
+                <div class="ds-grid">
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">✅</div>
+                        <div class="ds-card-title">Zero Ingredientes Inflamatórios</div>
+                        <div class="ds-card-text">Acabou a inflamação! Nossas receitas usam apenas ingredientes que
+                            <span style="color:#65a30d;">nutrem e curam seu corpo</span>.
+                        </div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🎯</div>
+                        <div class="ds-card-title">Controle Natural da Glicemia</div>
+                        <div class="ds-card-text">Bolos que mantêm sua glicose estável, sem picos nem quedas. <span
+                                style="color:#d97706;">Diabetes
+                                controlada naturalmente!</span></div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🌾</div>
+                        <div class="ds-card-title">100% Livre de Alérgenos</div>
+                        <div class="ds-card-text">Sem glúten, sem lactose, sem açúcares refinados. Ingredientes puros
+                            que seu organismo reconhece.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">💪</div>
+                        <div class="ds-card-title">Nutrição em Cada Mordida</div>
+                        <div class="ds-card-text">Bolos que alimentam! Ricos em vitaminas, minerais e fibras que
+                            fortalecem sua saúde.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">😊</div>
+                        <div class="ds-card-title">Prazer Sem Culpa</div>
+                        <div class="ds-card-text">Volte a sentir alegria ao comer doce! Sabor incrível sem nenhuma
+                            consequência negativa.</div>
+                    </div>
+
+                    <div class="ds-card">
+                        <div class="ds-card-tape"></div>
+                        <div class="ds-card-emoji">🏠</div>
+                        <div class="ds-card-title">Fácil de Fazer em Casa</div>
+                        <div class="ds-card-text">Receitas práticas com ingredientes acessíveis. Você vai se surpreender
+                            como é simples!</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 4 — ANTES VS DEPOIS
+============================================================ -->
+    <section class="section-antes-depois">
+        <svg class="ganache-divider-global" style="color: #f0a82b;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <div class="ad-bg-image"></div>
+        <div class="ad-overlay"></div>
+        <div class="ad-container">
+
+            <h2 class="ad-title"
+                style="align-items: center; flex-direction: row; flex-wrap: wrap; text-align: center; justify-content: center;">
+                <span style="text-align: center; margin: 0; padding: 0;">
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-bottom: 5px;">A
+                        Sua Vida</span>
+                    <span
+                        style="display:block; color:#451a03; font-size:clamp(40px, 10vw, 65px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1; text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 6px 15px rgba(0,0,0,0.4);">ANTES
+                        vs DEPOIS</span>
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-top: 5px;">dos
+                        Bolos do Bem</span>
+                </span>
+            </h2>
+
+            <div class="ad-grid">
+                <!-- CARD ANTES -->
+                <div class="ad-card ad-card-antes">
+                    <div class="ad-card-border"></div>
+                    <div class="ad-corner-icon ad-corner-tl"></div>
+                    <div class="ad-corner-icon ad-corner-tr"></div>
+                    <div class="ad-corner-icon ad-corner-bl"></div>
+                    <div class="ad-corner-icon ad-corner-br"></div>
+
+                    <img src="https://i.postimg.cc/PvsCCsZ4/2026-02-22-05-34-removebg-preview.png" alt="Bolo Triste"
+                        class="ad-cake-img">
+                    <div class="ad-card-header">
+                        <h3>ANTES</h3>
+                        <p>(Sua realidade atual)</p>
+                    </div>
+
+                    <ul class="ad-list">
+                        <li style="animation-delay: 0.1s;"><span class="ad-bullet-antes">🔴</span> Enjoos e mal-estar
+                            após comer doces</li>
+                        <li style="animation-delay: 0.2s;"><span class="ad-bullet-antes">🔴</span> Inflamação e inchaço
+                            constantes</li>
+                        <li style="animation-delay: 0.3s;"><span class="ad-bullet-antes">🔴</span> Glicemia
+                            descontrolada</li>
+                        <li style="animation-delay: 0.4s;"><span class="ad-bullet-antes">🔴</span> Culpa e frustração
+                        </li>
+                        <li style="animation-delay: 0.5s;"><span class="ad-bullet-antes">🔴</span> Isolamento em eventos
+                            sociais</li>
+                        <li style="animation-delay: 0.6s;"><span class="ad-bullet-antes">🔴</span> Medo de comer
+                            qualquer doce</li>
+                        <li style="animation-delay: 0.7s;"><span class="ad-bullet-antes">🔴</span> Perda do prazer
+                            simples da vida</li>
+                    </ul>
+                </div>
+
+                <!-- CARD DEPOIS -->
+                <div class="ad-card ad-card-depois">
+                    <div class="ad-card-border"></div>
+                    <div class="ad-corner-icon ad-corner-tl"></div>
+                    <div class="ad-corner-icon ad-corner-tr"></div>
+                    <div class="ad-corner-icon ad-corner-bl"></div>
+                    <div class="ad-corner-icon ad-corner-br"></div>
+
+                    <img src="https://i.postimg.cc/H8DrrD59/2026-02-22-05-33-removebg-preview.png" alt="Bolo Feliz"
+                        class="ad-cake-img">
+                    <div class="ad-card-header">
+                        <h3>DEPOIS</h3>
+                        <p>(Sua nova realidade)</p>
+                    </div>
+
+                    <ul class="ad-list">
+                        <li style="animation-delay: 0.1s;"><span class="ad-bullet-depois">🟢</span> Digestão perfeita e
+                            bem-estar</li>
+                        <li style="animation-delay: 0.2s;"><span class="ad-bullet-depois">🟢</span> Corpo desinchado e
+                            saudável</li>
+                        <li style="animation-delay: 0.3s;"><span class="ad-bullet-depois">🟢</span> Glicemia estável
+                            naturalmente</li>
+                        <li style="animation-delay: 0.4s;"><span class="ad-bullet-depois">🟢</span> Prazer e satisfação
+                            total</li>
+                        <li style="animation-delay: 0.5s;"><span class="ad-bullet-depois">🟢</span> Participação plena
+                            em celebrações</li>
+                        <li style="animation-delay: 0.6s;"><span class="ad-bullet-depois">🟢</span> Confiança para comer
+                            seus bolos</li>
+                        <li style="animation-delay: 0.7s;"><span class="ad-bullet-depois">🟢</span> Alegria de volta à
+                            sua vida</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ad-final">
+                <div class="ad-final-line1">ESSA TRANSFORMAÇÃO <i>PODE</i></div>
+                <div class="ad-final-line2">COMEÇAR HOJE!</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 5 — O SEGREDO (NOVO VISUAL PREMIUM)
+============================================================ -->
+    <section class="section-o-segredo">
+        <svg class="ganache-divider-global" style="color: #f0a82b;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <div class="segredo-bg"></div>
+        <div class="segredo-overlay"></div>
+        <div class="segredo-particles"></div>
+        <div class="segredo-container">
+
+            <h2 class="segredo-title">
+                <span class="segredo-title-line1">O segredo para bolos fofinhos,</span>
+                <span class="segredo-title-line2"><span class="seg-verde">macios</span> e <span
+                        class="seg-laranja">incrivelmente</span> <span class="seg-verde-forte">gostosos</span></span>
+            </h2>
+
+            <p class="segredo-subtitle">
+                Após anos de testes e tradição na cozinha, as <strong class="seg-laranja">500 Receitas</strong> de Bolo
+                <strong class="seg-verde">Sem Glúten</strong> da Vó
+                Tereza foram reunidas para provar que você <strong class="seg-preto">não precisa de trigo</strong> para
+                ter o <strong class="seg-verde">resultado
+                    que todo mundo ama</strong>:
+            </p>
+
+            <div class="segredo-glass-card">
+                <ul class="segredo-list">
+                    <li style="animation-delay: 0.1s;">
+                        <div class="segredo-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                        </div>
+                        Bolos fofinhos
+                    </li>
+                    <li style="animation-delay: 0.2s;">
+                        <div class="segredo-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                        </div>
+                        Textura macia
+                    </li>
+                    <li style="animation-delay: 0.3s;">
+                        <div class="segredo-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                        </div>
+                        Sabor de verdade
+                    </li>
+                </ul>
+            </div>
+
+            <div class="segredo-text-bottom">
+                <p>Esqueça aquelas receitas <span class="seg-verde">sem glúten</span> <span class="seg-laranja">secas e
+                        sem gosto</span>. Aqui, usamos combinações estratégicas de
+                    <span class="seg-verde">ingredientes naturais</span> que mantêm a <span class="seg-preto">umidade e
+                        a estrutura</span> dos bolos.
+                </p>
+                <p>É por isso que seus bolos vão parecer <b>(e muitas vezes ficar melhores)</b> do que os tradicionais!
+                </p>
+            </div>
+
+            <div class="segredo-final">
+                Ou até mesmo para quem busca uma<br><span>nova renda.</span>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO DEPOIMENTOS
+============================================================ -->
+    <section class="section-depoimentos">
+        <svg class="ganache-divider-global" style="color: #f0a82b;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <div class="depoimentos-container">
+            <div class="depoimentos-title-wrapper"
+                style="flex-direction: row; flex-wrap: wrap; text-align: center; justify-content: center; align-items: center;">
+                <h2 class="depoimentos-title" style="text-align: center; margin: 0; padding: 0;">
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; margin-bottom: 5px; text-transform: uppercase; text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">Olha
+                        os bolos que</span>
+                    <span
+                        style="display:block; color:#000000; font-size:clamp(40px, 10vw, 65px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1; padding: 5px 0; text-shadow: none;">As
+                        Alunas</span>
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(32px, 8vw, 48px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; margin-top: 5px; text-transform: uppercase; text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">Estão
+                        Fazendo</span>
+                </h2>
+            </div>
+
+            <div class="depoimentos-grid">
+                <!-- Linha 1 -->
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/RVJk59k0/4958512294556011437.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/dtZbPvb3/4958512294556011438.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/wTRC8HCy/4958512294556011439.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/5NQhd1hH/4958512294556011440.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+
+                <!-- Linha 2 -->
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/SNYBFqBj/4958512294556011441.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/9Fw65V6G/4958512294556011442.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/FskM5mM3/4958512294556011443.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+                <div class="depoimentos-card">
+                    <img src="https://i.postimg.cc/pX5wbxwf/4958512294556011444.jpg" alt="Depoimento de aluna"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 5B — RECEITAS (NOVO VISUAL PREMIUM)
+============================================================ -->
+    <section class="section-receitas">
+        <svg class="ganache-divider-global" style="color: #ffffff;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+
+        <!-- DECORAÇÃO CHANTILLY -->
+        <div class="receitas-chantilly">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                <path fill="#ffffff"
+                    d="M0,0 Q50,60 100,0 Q150,60 200,0 Q250,60 300,0 Q350,60 400,0 Q450,60 500,0 Q550,60 600,0 Q650,60 700,0 Q750,60 800,0 Q850,60 900,0 Q950,60 1000,0 Q1050,60 1100,0 Q1150,60 1200,0 V-20 H0 Z" />
+            </svg>
+            <div class="chantilly-glow"></div>
+        </div>
+
+        <div class="receitas-bg-texture"></div>
+        <div class="receitas-glow"></div>
+        <div class="receitas-container">
+
+            <h2 class="receitas-title"
+                style="flex-direction: row; flex-wrap: wrap; text-align: center; justify-content: center; align-items: center; gap: 15px;">
+                <span style="text-align: center; margin: 0; padding: 0;">
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(24px, 6vw, 40px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-bottom: 5px;">ALGUNS
+                        DOS</span>
+                    <span
+                        style="display:block; color:#451a03; font-size:clamp(32px, 8vw, 55px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1; text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 6px 15px rgba(0,0,0,0.4);">BOLOS
+                        E COBERTURAS</span>
+                    <span
+                        style="display:block; color:#ffffff; font-size:clamp(24px, 6vw, 40px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; text-shadow:0 4px 6px rgba(0,0,0,0.6); margin-top: 5px;">QUE
+                        VOCÊ VAI FAZER</span>
+                </span>
+            </h2>
+
+            <p class="receitas-subtitle">Tudo sem glúten, lactose e açúcar refinado,<br>usando o caderno de receitas da
+                vó tereza</p>
+
+            <div class="receitas-card-list">
+                <div class="receitas-list-grid">
+                    <div class="receitas-item" style="animation-delay: 0.10s;">
+                        <div class="receitas-bullet"></div> Bolo Formigueiro
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.15s;">
+                        <div class="receitas-bullet"></div> Bolo de Maçã Francês
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.20s;">
+                        <div class="receitas-bullet"></div> Bolo de Limão Siciliano
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.25s;">
+                        <div class="receitas-bullet"></div> Bolo de Morango
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.30s;">
+                        <div class="receitas-bullet"></div> Bolo de Chocolate
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.35s;">
+                        <div class="receitas-bullet"></div> Bolo de Milho
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.40s;">
+                        <div class="receitas-bullet"></div> Bolo de Cenoura com Brownie
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.45s;">
+                        <div class="receitas-bullet"></div> Bolo de Churros
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.50s;">
+                        <div class="receitas-bullet"></div> + 12 tipos de coberturas e caldas
+                    </div>
+                    <div class="receitas-item" style="animation-delay: 0.55s;">
+                        <div class="receitas-bullet"></div> Brigadeiro saudável e Merengue suíço
+                    </div>
+                </div>
+            </div>
+
+            <div class="receitas-mockups">
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559171574256.jpg"
+                                alt="Bolo 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_175367073735755917974972.jpg"
+                                alt="Bolo 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559172933068.jpg"
+                                alt="Bolo 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559176933023.jpg"
+                                alt="Bolo 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559179655046.jpg"
+                                alt="Bolo 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://pages.greatpages.com.br/www.chefrosanarodrigues.com.br-bolos-do-bem/1770699709/imagens/mobile/3204218_1_1753670737357559171999024.jpg"
+                                alt="Bolo 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 5C — COBERTURAS E RECHEIOS
+============================================================ -->
+    <section class="section-coberturas">
+        <svg class="ganache-divider-global" style="color: #d48f1c;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+
+        <div class="coberturas-container">
+
+            <h2 class="coberturas-title">
+                <span>AS COBERTURAS, CALDAS<br><b>E RECHEIOS <span class="destaque-verde">QUE DÃO ÁGUA NA
+                            BOCA</span></b></span>
+            </h2>
+
+            <p class="coberturas-subtitle">Para você comer o que ama, de maneira saudável.</p>
+
+            <div class="coberturas-card-list">
+                <div class="coberturas-list-grid">
+                    <div class="coberturas-item" style="animation-delay: 0.10s;">
+                        <div class="coberturas-bullet"></div> Calda de Chocolate sem Lactose
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.15s;">
+                        <div class="coberturas-bullet"></div> Merengue Suíço
+                    </div>
+
+                    <div class="coberturas-item" style="animation-delay: 0.20s;">
+                        <div class="coberturas-bullet"></div> Ganache Preta
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.25s;">
+                        <div class="coberturas-bullet"></div> Leite Condensado de Coco
+                    </div>
+
+                    <div class="coberturas-item" style="animation-delay: 0.30s;">
+                        <div class="coberturas-bullet"></div> Ganache Branca
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.35s;">
+                        <div class="coberturas-bullet"></div> Brigadeiro de Pistache Saudável
+                    </div>
+
+                    <div class="coberturas-item" style="animation-delay: 0.40s;">
+                        <div class="coberturas-bullet"></div> Ganache de Maracujá
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.45s;">
+                        <div class="coberturas-bullet"></div> Calda de Limão
+                    </div>
+
+                    <div class="coberturas-item" style="animation-delay: 0.50s;">
+                        <div class="coberturas-bullet"></div> Doce de Leite (sem leite e sem açúcar refinado)
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.55s;">
+                        <div class="coberturas-bullet"></div> Caramelo Salgado
+                    </div>
+
+                    <div class="coberturas-item" style="animation-delay: 0.60s;">
+                        <div class="coberturas-bullet"></div> Brigadeiro Tradicional (saudável)
+                    </div>
+                    <div class="coberturas-item" style="animation-delay: 0.65s;">
+                        <div class="coberturas-bullet"></div> Chantilly de Coco
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOCKUPS REUTILIZANDO MESMAS CLASSES E KEYFRAMES -->
+            <div class="receitas-mockups">
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/JGKjb43Z/cc.png" alt="Cobertura Adicional 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/QFt1SGSW/dd.png" alt="Cobertura Adicional 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/fVLm5n5t/ee.png" alt="Cobertura Adicional 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/NKMmbqb2/ff.png" alt="Cobertura Adicional 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/9wbwtJ7N/aaa.png" alt="Cobertura Adicional 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-entrance">
+                    <div class="receita-mockup-wrapper">
+                        <div class="receita-mockup">
+                            <img src="https://i.postimg.cc/rRjRCQ46/bb.png" alt="Cobertura Adicional 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 6 — OFERTA (NOVA MODERNA)
+============================================================ -->
+    <section class="section-oferta" id="comprar">
+        <svg class="ganache-divider-global" style="color: #f0a82b;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <div class="oferta-parallax-bg"></div>
+
+        <h2 class="oferta-main-title"
+            style="flex-direction: column; text-align: center; justify-content: center; align-items: center; margin: 0; padding: 0;">
+            <span
+                style="display:block; color:#ffffff; font-size:clamp(24px, 5vw, 36px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; margin-bottom: 5px; text-transform: uppercase; text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">PARE
+                DE SOFRER</span>
+            <span
+                style="display:block; color:#451a03; font-size:clamp(40px, 8vw, 65px); font-family: 'Source Serif 4', serif; font-weight:900; font-style:italic; line-height:1.1; padding: 5px 0; text-shadow: none;">COMECE
+                SUA TRANSFORMAÇÃO</span>
+            <span
+                style="display:block; color:#ffffff; font-size:clamp(36px, 10vw, 55px); font-family: 'Montserrat', sans-serif; font-weight:900; line-height:1; margin-top: 5px; text-transform: uppercase; text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">HOJE</span>
+        </h2>
+
+        <div class="oferta-container">
+
+            <!-- CARD BÁSICO -->
+            <style>
+                @keyframes basicPop {
+                    0% {
+                        transform: scale(0.95);
+                        opacity: 0;
+                    }
+
+                    80% {
+                        transform: scale(1.02);
+                        opacity: 1;
+                    }
+
+                    100% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                }
+
+                @keyframes pulseBtnBasic {
+                    0% {
+                        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+                        transform: translateY(-2px);
+                    }
+
+                    100% {
+                        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+                        transform: translateY(0);
+                    }
+                }
+
+                .plan-basico-modernizado {
+                    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+                    border-radius: 24px;
+                    border: 1px solid #e2e8f0;
+                    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+                    transition: all 0.3s ease;
+                    position: relative;
+                    margin-bottom: 30px;
+                }
+
+                .plan-basico-modernizado:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+                }
+
+                .basico-list-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    margin-bottom: 15px;
+                    font-size: 16px;
+                    color: #334155;
+                    font-weight: 500;
+                    opacity: 0;
+                    animation: fadeInUpPremium 0.5s ease-out forwards;
+                }
+
+                .btn-basic-new {
+                    background: linear-gradient(90deg, #16a34a, #22c55e, #16a34a);
+                    background-size: 200% auto;
+                    color: #fff;
+                    font-size: clamp(16px, 4vw, 20px);
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    padding: 18px 10px;
+                    border-radius: 50px;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    text-decoration: none;
+                    box-shadow: 0 8px 15px rgba(34, 197, 94, 0.3);
+                    transition: all 0.3s ease;
+                    position: relative;
+                    overflow: hidden;
+                    animation: pulseBtnBasic 3s infinite ease-in-out;
+                }
+
+                .btn-basic-new:hover {
+                    box-shadow: 0 12px 20px rgba(34, 197, 94, 0.5);
+                    transform: translateY(-2px);
+                }
+
+                .btn-basic-new::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 50%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+                    transform: skewX(-20deg);
+                    animation: shine 3s infinite 1.5s;
+                }
+
+                /* Mobile Ajustes para o Básico */
+                @media (max-width: 768px) {
+                    .plan-basico-modernizado {
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 100%;
+                    }
+                }
+            </style>
+
+            <div class="plan-card plan-basico-modernizado">
+                <div class="plan-header" style="margin-bottom: 20px;">
+                    <span class="plan-subtitle"
+                        style="color: #64748b; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 8px;">
+                        Ideal para começar sua jornada saudável
+                    </span>
+                    <h2 class="plan-title"
+                        style="font-size: 28px; color: #0f172a; text-shadow: 0 2px 4px rgba(0,0,0,0.05); animation: fadeInUpPremium 0.6s ease-out forwards; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        📘 Caderno de Bolos da Vó Tereza – Plano Básico
+                    </h2>
+                </div>
+
+                <div class="plan-mockup-area">
+                    <div class="book-mockup-3d">
+                        <img src="https://i.postimg.cc/7Yg64VVT/Gemini-Generated-Image-kzg6orkzg6orkzg6.png"
+                            alt="Mockup Caderno Especial">
+                    </div>
+                </div>
+
+                <ul class="plan-list"
+                    style="padding: 0; margin: 0; list-style: none; text-align: left; margin-top: 20px; margin-bottom: 25px;">
+                    <li class="basico-list-item" style="animation-delay: 0.1s;">
+                        <span
+                            style="font-size: 24px; flex-shrink: 0; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));">🧁</span>
+                        <span>500 receitas sem açúcar, glúten e lactose</span>
+                    </li>
+                    <li class="basico-list-item" style="animation-delay: 0.2s;">
+                        <span
+                            style="font-size: 24px; flex-shrink: 0; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));">🌾</span>
+                        <span>Guia de substituição de farinhas</span>
+                    </li>
+                    <li class="basico-list-item" style="animation-delay: 0.3s;">
+                        <span
+                            style="font-size: 24px; flex-shrink: 0; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));">📊</span>
+                        <span>Tabela de índice glicêmico</span>
+                    </li>
+                    <li class="basico-list-item" style="animation-delay: 0.4s;">
+                        <span
+                            style="font-size: 24px; flex-shrink: 0; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));">📂</span>
+                        <span>Organização por categorias</span>
+                    </li>
+                    <li class="basico-list-item" style="animation-delay: 0.5s;">
+                        <span
+                            style="font-size: 24px; flex-shrink: 0; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));">⚡</span>
+                        <span>Acesso imediato por 30 dias</span>
+                    </li>
+                </ul>
+
+                <div class="pricing-section"
+                    style="background: #f1f5f9; border-radius: 16px; padding: 25px 20px; text-align: center; margin-bottom: 25px; border: 1px solid #e2e8f0;">
+                    <div class="old-price"
+                        style="text-decoration: line-through; color: #94a3b8; font-size: 15px; margin-bottom: 5px;">De
+                        R$ 49,90</div>
+                    <div class="price-small"
+                        style="color: #64748b; font-size: 14px; font-weight: 600; text-transform: uppercase;">por apenas
+                    </div>
+
+                    <div
+                        style="display: flex; justify-content: center; align-items: center; position: relative; animation: basicPop 0.8s ease-out forwards;">
+                        <div class="main-price"
+                            style="font-size: clamp(45px, 12vw, 65px); font-weight: 900; color: #0f172a; text-shadow: 0 4px 15px rgba(34,197,94,0.15); line-height: 1; margin: 10px 0;">
+                            R$ 9,97
+                        </div>
+                    </div>
+
+                    <div class="price-benefits"
+                        style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #475569; font-weight: 600; margin-top: 15px;">
+                        <span style="display: flex; align-items: center; justify-content: center; gap: 8px;"><svg
+                                viewBox="0 0 24 24"
+                                style="fill: #22c55e; width: 24px; height: 24px; animation: checkScale 0.4s ease backwards 0.6s;">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg> Pagamento único</span>
+                        <span style="display: flex; align-items: center; justify-content: center; gap: 8px;"><svg
+                                viewBox="0 0 24 24"
+                                style="fill: #22c55e; width: 24px; height: 24px; animation: checkScale 0.4s ease backwards 0.7s;">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg> Acesso imediato</span>
+                        <span style="display: flex; align-items: center; justify-content: center; gap: 8px;"><svg
+                                viewBox="0 0 24 24"
+                                style="fill: #22c55e; width: 24px; height: 24px; animation: checkScale 0.4s ease backwards 0.8s;">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg> Garantia de 7 dias</span>
+                    </div>
+                </div>
+
+                <a href="#comprar" class="btn-basic-new">Quero Começar Agora</a>
+            </div>
+
+            <!-- CARD PREMIUM -->
+            <style>
+                @keyframes fadeInUpPremium {
+                    from {
+                        opacity: 0;
+                        transform: translateY(30px);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+
+                @keyframes checkScale {
+                    from {
+                        opacity: 0;
+                        transform: scale(0);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
+
+                @keyframes pricePop {
+                    0% {
+                        transform: scale(0.9);
+                        opacity: 0;
+                    }
+
+                    80% {
+                        transform: scale(1.05);
+                        opacity: 1;
+                    }
+
+                    100% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                }
+
+                @keyframes pulseBtnPremium {
+                    0% {
+                        box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.7);
+                        transform: scale(1);
+                    }
+
+                    50% {
+                        box-shadow: 0 0 0 15px rgba(234, 88, 12, 0);
+                        transform: scale(1.02);
+                    }
+
+                    100% {
+                        box-shadow: 0 0 0 0 rgba(234, 88, 12, 0);
+                        transform: scale(1);
+                    }
+                }
+
+                @keyframes pricePulseEfeito {
+                    0% {
+                        transform: scale(1);
+                    }
+
+                    50% {
+                        transform: scale(1.03);
+                    }
+
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .plan-premium-modernizado {
+                    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+                    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 45px rgba(234, 88, 12, 0.5);
+                    border-radius: 24px;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    animation: fadeInUpPremium 0.8s ease-out forwards;
+                    position: relative;
+                    transition: transform 0.3s ease;
+                }
+
+                .plan-premium-modernizado:hover {
+                    transform: translateY(-5px);
+                }
+
+                .prem-list-item {
+                    transition: all 0.2s ease;
+                    border-radius: 8px;
+                    padding: 5px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 12px;
+                    margin-bottom: 12px;
+                    color: #fff;
+                    font-size: 16px;
+                }
+
+                .prem-list-item:hover {
+                    background: rgba(255, 255, 255, 0.1);
+                    transform: translateX(5px);
+                }
+
+                .check-verde-glow {
+                    fill: #22c55e;
+                    width: 28px;
+                    height: 28px;
+                    filter: drop-shadow(0 0 8px rgba(34, 197, 94, 0.8));
+                }
+
+                .btn-premium-new {
+                    background: linear-gradient(90deg, #d97706, #f59e0b, #d97706);
+                    background-size: 200% auto;
+                    color: #fff;
+                    font-size: clamp(16px, 4vw, 20px);
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    padding: 20px 10px;
+                    border-radius: 50px;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    text-decoration: none;
+                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+                    animation: pulseBtnPremium 2.5s infinite ease-in-out;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    overflow: hidden;
+                    margin-top: 10px;
+                }
+
+                .btn-premium-new:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(245, 158, 11, 0.4);
+                }
+
+                .btn-premium-new::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 50%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+                    transform: skewX(-20deg);
+                    animation: shine 3s infinite;
+                }
+
+                @keyframes shine {
+                    0% {
+                        left: -100%;
+                    }
+
+                    20% {
+                        left: 200%;
+                    }
+
+                    100% {
+                        left: 200%;
+                    }
+                }
+            </style>
+
+            <div class="plan-card plan-premium plan-premium-modernizado">
+                <div class="premium-badge" style="background: #22c55e; color: #fff; text-shadow: none;">⭐ MAIS VANTAJOSO
+                </div>
+
+                <div class="plan-header" style="margin-bottom: 25px;">
+                    <span class="plan-subtitle"
+                        style="color: #ffffff; font-weight: 700; letter-spacing: 1px; font-size: 14px; text-transform: uppercase; line-height: 1.4; display: block; margin-bottom: 5px;">
+                        ✨ O pacote definitivo para quem quer saúde, sabor e possibilidade real de renda.
+                    </span>
+                    <h2 class="plan-title"
+                        style="color: #ffffff; font-size: 46px; text-shadow: 0 6px 15px rgba(0,0,0,0.6);">PLANO PREMIUM
+                    </h2>
+                    <p style="color: rgba(255,255,255,0.95); font-size: 17px; margin-top: 15px; font-weight: 500;">
+                        Você não recebe apenas receitas.<br>
+                        Você recebe um <strong>método completo</strong>.
+                    </p>
+                </div>
+
+                <div class="plan-mockup-area">
+                    <div class="book-mockup-3d-premium">
+                        <img src="https://i.postimg.cc/qqYQJrxw/Chat-GPT-Image-21-de-fev-de-2026-04-42-44.png"
+                            alt="Mockup Premium Bundle">
+                    </div>
+                </div>
+
+                <!-- LISTA DE BENEFÍCIOS -->
+                <div
+                    style="font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 25px; text-align: left; margin-top: 15px;">
+                    ✔ Inclui TUDO do Plano Básico + <br><span
+                        style="color: #fcd34d; font-size: 20px; display: inline-block; margin-top: 5px;">🎁 BÔNUS
+                        EXCLUSIVOS PREMIUM</span></div>
+
+                <ul class="plan-list" style="padding: 0; margin: 0; list-style: none; text-align: left;">
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.1s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">🍫 100 Coberturas Saudáveis
+                                Gourmet</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;"><strong>Transforme</strong>
+                                qualquer bolo simples em uma <strong>versão profissional. Sem açúcar, sem glúten e sem
+                                    lactose.</strong></span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.2s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">💰 Manual Bolos que Vendem</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;">Aprenda
+                                a <strong>precificar corretamente</strong>, montar combos irresistíveis e <strong>gerar
+                                    renda</strong> com confeitaria saudável.</span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.3s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">📅 Cardápio Anti-inflamatório 30
+                                Dias</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;">Plano
+                                estruturado para <strong>reduzir inflamação</strong> e organizar sua
+                                alimentação.</span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.4s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">🛒 Lista Inteligente de Compras
+                                Econômica</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;">Compre
+                                apenas o necessário, <strong>economize dinheiro e evite
+                                    desperdícios.</strong></span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.5s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">❄ Guia Profissional de Congelamento e
+                                Conservação</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;">Produza
+                                em maior quantidade <strong>sem perder textura, sabor ou
+                                    qualidade.</strong></span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.6s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">👩‍🍳 Grupo VIP Exclusivo</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;"><strong>Suporte
+                                    direto e troca de experiências</strong> com outras alunas.</span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.7s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">🏅 Certificado Digital Confeitaria
+                                Saudável</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;">Ideal
+                                para quem deseja <strong>vender ou fortalecer sua autoridade.</strong></span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.8s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">🎥 Mini Curso em Vídeo</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;"><strong>Passo
+                                    a passo</strong> mostrando preparo, textura perfeita e <strong>acabamento
+                                    profissional.</strong></span></span>
+                    </li>
+                    <li class="prem-list-item">
+                        <div style="flex-shrink: 0; animation: checkScale 0.4s ease backwards 0.9s;"><svg
+                                viewBox="0 0 24 24" class="check-verde-glow">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg></div>
+                        <span><strong style="color: #fcd34d; font-size: 17px;">🛡 Garantia Estendida de 15
+                                Dias</strong><br>
+                            <span
+                                style="font-size: 14px; color: rgba(255,255,255,0.9); display: block; margin-top: 3px;"><strong>Risco
+                                    zero</strong> para você testar tudo com tranquilidade.</span></span>
+                    </li>
+                </ul>
+
+
+
+                <!-- BLOCO DE PREÇO -->
+                <div class="pricing-highlight-box"
+                    style="background: rgba(0,0,0,0.3); border-radius: 16px; padding: 30px 20px; text-align: center; margin-bottom: 25px; margin-top: 25px; border: 1px solid rgba(255,255,255,0.15); box-shadow: inset 0 0 25px rgba(0,0,0,0.4);">
+
+                    <div
+                        style="color: #ffffff; font-size: 22px; font-weight: 900; margin-bottom: 8px; text-transform: uppercase;">
+                        🔥 OFERTA ESPECIAL</div>
+
+                    <div
+                        style="text-decoration: line-through; color: rgba(255,255,255,0.4); font-size: 16px; margin-bottom: 5px;">
+                        ❌ De R$ 297,00</div>
+
+                    <div
+                        style="color: #ffffff; font-size: 26px; font-weight: 900; margin-bottom: 5px; text-transform: uppercase;">
+                        🔥 Hoje por apenas</div>
+
+                    <div
+                        style="display: flex; justify-content: center; align-items: center; position: relative; animation: pricePop 1s ease-out forwards;">
+                        <div
+                            style="font-size: clamp(70px, 18vw, 100px); font-weight: 900; color: #ffffff; text-shadow: 0 5px 20px rgba(0,0,0,0.7); line-height: 1; letter-spacing: -2px; animation: pricePulseEfeito 2s infinite ease-in-out;">
+                            <span
+                                style="color: #fcd34d; font-size: 0.45em; vertical-align: super; font-weight: 700;">R$</span>17,90
+                        </div>
+                    </div>
+
+                    <div style="color: #fcd34d; font-size: 20px; font-weight: 800; margin-top: 15px;">
+                        ou menos de R$ 0,60 por dia
+                    </div>
+
+                    <div
+                        style="display: inline-block; background: #dc2626; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 800; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                        🔥 Melhor Custo-Benefício</div>
+                </div>
+
+                <div
+                    style="margin-bottom: 25px; text-align: left; background: rgba(0,0,0,0.25); padding: 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                    <strong style="color: #ffffff; display: block; margin-bottom: 12px; font-size: 17px;">💎 Por que o
+                        Premium é a escolha inteligente?</strong>
+                    <ul
+                        style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.95); font-size: 16px; line-height: 1.7;">
+                        <li><strong style="color: #22c55e; font-size: 18px; margin-right: 5px;">✔</strong> Mais
+                            <strong>completo</strong>
+                        </li>
+                        <li><strong style="color: #22c55e; font-size: 18px; margin-right: 5px;">✔</strong> Mais
+                            <strong>profissional</strong>
+                        </li>
+                        <li><strong style="color: #22c55e; font-size: 18px; margin-right: 5px;">✔</strong> Mais
+                            <strong>econômico</strong> a longo prazo
+                        </li>
+                        <li><strong style="color: #22c55e; font-size: 18px; margin-right: 5px;">✔</strong> Ideal para
+                            <strong>consumo próprio ou venda</strong>
+                        </li>
+                        <li><strong style="color: #22c55e; font-size: 18px; margin-right: 5px;">✔</strong> Muito mais
+                            <strong>valor</strong> por uma pequena diferença de investimento
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="#comprar" class="btn-premium-new">🔘 QUERO ACESSO COMPLETO AGORA</a>
+
+                <!-- URGENCIA FINAL -->
+                <div
+                    style="margin-top: 25px; text-align: center; opacity: 0; animation: fadeInUpPremium 1s ease-out forwards 0.8s;">
+                    <div style="color: #ffffff; font-weight: 800; font-size: 17px;">🔒 Oferta especial liberada hoje
+                    </div>
+                    <div style="color: rgba(255,255,255,0.85); font-size: 14px; margin-top: 6px;">Depois que sair dessa
+                        página, o valor pode voltar ao normal.</div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 7 — SOBRE
+============================================================ -->
+    <section class="section-sobre" style="position: relative;">
+        <svg class="ganache-divider-global" style="color: #e8f5e9;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <!-- FOTO EM CARD REDONDO (AVATAR) -->
+        <div class="sobre-card-foto"
+            style="width: 280px; height: 280px; margin: 40px auto 10px auto; border-radius: 50%; box-shadow: 0 15px 30px rgba(0,0,0,0.3); overflow: hidden; display: flex; align-items: center; justify-content: center; background: var(--cinza-claro);">
+            <img id="chef-avatar" src="" style="width: 100%; height: 100%; object-fit: cover; display: none;"
+                alt="Chef Rosana Avatar">
+            <span id="chef-placeholder-text"
+                style="color: #999; font-weight: 600; font-size: 14px; text-transform: uppercase; text-align: center; padding: 20px;">Aguardando
+                Foto...</span>
+        </div>
+
+        <div class="container">
+            <div class="sobre-flex">
+
+                <div class="sobre-conteudo">
+                    <h2>Minha História</h2>
+                    <p>"Oi! Eu sou a <strong>Chef Rosana Rodrigues</strong>, e minha jornada na cozinha saudável começou
+                        pelo desejo de oferecer o melhor para minha família."</p>
+                    <p>Foi resgatando o carinho das receitas de vó, mas adaptando para as necessidades de hoje, que
+                        nasceu o <strong>Caderno de Bolos da Vó Tereza</strong>.</p>
+                    <p>Criei este guia para que nenhuma mulher precise escolher entre saúde e prazer. Hoje, meu
+                        propósito é ensinar você a fazer bolos que nutrem e abraçam a alma, sem causar inflamações ou
+                        desconfortos. Seja bem-vinda à minha cozinha!"</p>
+                </div>
+            </div>
+
+            <!-- Imagem do Mockup (Cuaderno de Tortas) -->
+            <div class="sobre-mockup-area">
+                <img src="https://i.postimg.cc/pdcj7k0t/delivery-spanish-removebg-preview.png"
+                    alt="Mockups Cuaderno de Tortas">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SEÇÃO 6B — GARANTIA
+============================================================ -->
+    <section class="section-garantia">
+        <svg class="ganache-divider-global" style="color: #ffffff;" preserveAspectRatio="none">
+            <use href="#ganache-drip" />
+        </svg>
+        <div class="garantia-bg-image"></div>
+        <div class="garantia-overlay"></div>
+
+        <div class="garantia-container">
+            <div class="garantia-selo-wrap">
+                <img src="https://i.postimg.cc/ZKcpbHft/Gemini-Generated-Image-bb2g8mbb2g8mbb2g-removebg-preview-(1).png"
+                    alt="Selo de 30 Dias" class="garantia-selo-img">
+            </div>
+
+            <h2 class="garantia-title">
+                GARANTIA BLINDADA DE<br><span class="dourado">30 DIAS</span>
+            </h2>
+
+            <p class="garantia-desc">
+                Se você não conseguir fazer bolos deliciosos sem passar mal, se não sentir a diferença em seu bem-estar,
+                se não ficar 100% satisfeito(a)... <strong class="dourado">EU DEVOLVO CADA CENTAVO</strong> DO SEU
+                INVESTIMENTO!
+            </p>
+
+            <p class="garantia-desc">
+                Você não tem absolutamente <strong class="dourado">NADA</strong>
+                a perder, apenas uma vida de sofrimento para deixar para trás.
+            </p>
+
+            <ul class="garantia-trust-list">
+                <li><svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                    </svg> Compra 100% segura</li>
+                <li><svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                    </svg> Reembolso rápido e simples</li>
+                <li><svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                    </svg> Sem perguntas complicadas</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <footer
+        style="background:var(--cinza-claro); padding:40px 0; text-align:center; font-size:14px; color:#888; border-top:1px solid #eee;">
+        <div class="container">
+            <p>© 2026 Bolos da Vó Tereza. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <style>
+        /* ============================================================ */
+        /* EFEITOS DE ANIMAÇÃO GLOBAIS (SCROLL) */
+        /* ============================================================ */
+
+        /* EFEITO DE PROFUNDIDADE GERAL */
+        body,
+        .container,
+        section {
+            transition: background-color 0.8s ease;
+        }
+
+        /* BLOCOS PRINCIPAIS (headlines, textos, seções) */
+        .anim-block {
+            opacity: 0;
+            transform: translateY(30px);
+            filter: blur(3px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+            will-change: opacity, transform, filter;
+        }
+
+        .anim-block.in-view {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+
+        /* ÍCONES (checkmarks, emojis) */
+        .anim-icon {
+            opacity: 0;
+            transform: translateX(-15px) scale(0.95);
+            transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            will-change: opacity, transform;
+        }
+
+        .anim-icon.in-view {
+            opacity: 1;
+            transform: translateX(0) scale(1);
+        }
+
+        /* CARDS DE PLANOS (BÁSICO E PREMIUM) */
+        .anim-card {
+            opacity: 0;
+            transform: translateY(40px) scale(0.97);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: opacity 0.9s ease-out,
+                transform 0.9s ease-out,
+                box-shadow 0.9s ease-out;
+            will-change: opacity, transform, box-shadow;
+            position: relative;
+            z-index: 2;
+        }
+
+        .anim-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+            transition: box-shadow 0.9s ease-out;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .anim-card.in-view {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .anim-card.in-view::before {
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            /* micro glow discreto */
+        }
+
+        .anim-card.in-view:hover {
+            transform: translateY(-5px) scale(1.005);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        /* BOTÕES GERAIS */
+        .anim-btn {
+            opacity: 0;
+            transform: scale(0.95);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out, box-shadow 0.4s ease;
+            will-change: opacity, transform;
+            position: relative;
+            overflow: hidden;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-left .vsl-story-wrap.anim-btn {
+            display: flex;
+        }
+
+        .anim-btn.in-view {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .anim-btn-pulse {
+            animation: btnPulseDiscreto 4s infinite 3s;
+            /* pulse discreto após 3s */
+        }
+
+        .anim-btn.in-view:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Brilho Animado (Shine) no hover para botões */
+        .anim-btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+            transform: skewX(-20deg);
+            transition: none;
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        .anim-btn.in-view:hover::after {
+            animation: btnShineHover 0.8s ease-in-out forwards;
+        }
+
+        @keyframes btnPulseDiscreto {
+
+            0%,
+            100% {
+                transform: scale(1);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            50% {
+                transform: scale(1.015);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+            }
+        }
+
+        @keyframes btnShineHover {
+            0% {
+                left: -100%;
+            }
+
+            100% {
+                left: 200%;
+            }
+        }
+
+        /* MOBILE ADJUSTMENTS (Mais suave, garantindo fluidez) */
+        @media (max-width: 768px) {
+            .anim-block {
+                transform: translateY(20px);
+                filter: blur(1.5px);
+                /* Reduzir blur (suavidade maior e não pesa) */
+                transition-duration: 0.6s;
+            }
+
+            .anim-card {
+                transform: translateY(20px) scale(0.98);
+                transition-duration: 0.7s;
+            }
+
+            .anim-card.in-view:hover {
+                transform: translateY(-2px) scale(1);
+            }
+
+            .anim-icon {
+                transform: translateX(-10px) scale(0.98);
+                transition-duration: 0.4s;
+            }
+
+            .anim-btn.in-view:hover {
+                transform: translateY(0) scale(1.02);
+            }
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // 1. Add classes dinamically to elements
+            const btnSelectors = [
+                '.btn-hero', '.btn-premium-new', '.btn-basico',
+                '.hero-cta-wrap'
+            ];
+            document.querySelectorAll(btnSelectors.join(', ')).forEach(el => {
+                el.classList.add('anim-btn');
+            });
+
+            const iconsSelectors = [
+                '.ds-card-emoji',
+                '.prem-list-item svg', '.basico-list-item svg',
+                '.garantia-trust-list svg', '.check-verde-glow',
+                '.ad-corner-icon'
+            ];
+            document.querySelectorAll(iconsSelectors.join(', ')).forEach(el => {
+                el.classList.add('anim-icon');
+            });
+
+            document.querySelectorAll('.plan-card').forEach(el => {
+                el.classList.add('anim-card');
+            });
+
+            // ALL PAGE ANIMATION TARGETING: Animate all text blocks, media, and structural elements
+            const blocksSelectors = [
+                'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+                'p', 'img', 'iframe', 'li', 'article',
+                '.ds-card', '.faq-item', '.oferta-texto',
+                '.depoimento-card', '.bloco-conversa > div',
+                '.bonus-card', '.ad-card', '.hero-image-box'
+            ];
+            document.querySelectorAll(blocksSelectors.join(', ')).forEach(el => {
+                // Ensure we don't accidentally double-animate items that have specific animations
+                if (!el.classList.contains('anim-icon') &&
+                    !el.classList.contains('anim-btn') &&
+                    !el.classList.contains('anim-card') &&
+                    !el.closest('.vsl-play-btn') &&
+                    !el.closest('.anim-btn') &&
+                    !el.closest('svg')) {
+                    el.classList.add('anim-block');
+                }
+            });
+
+            // 2. Observer
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -15% 0px',
+                threshold: 0.05
+            };
+
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = entry.target;
+                        target.classList.add('in-view');
+
+                        // Active pulse discreto on buttons only when they enter view
+                        if (target.classList.contains('anim-btn')) {
+                            target.classList.add('anim-btn-pulse');
+                        }
+
+                        obs.unobserve(target);
+                    }
+                });
+            }, observerOptions);
+
+            // Observer em todos os animáveis
+            document.querySelectorAll('.anim-block, .anim-card, .anim-icon, .anim-btn').forEach(el => {
+                observer.observe(el);
+            });
+
+            // 3. Efeito sequencial para ícones em listas
+            document.querySelectorAll('ul, .plan-list, .ds-grid, .garantia-trust-list').forEach(list => {
+                const iconsInList = list.querySelectorAll('.anim-icon');
+                iconsInList.forEach((icon, index) => {
+                    // Delay de 0.15s (progressivo)
+                    icon.style.transitionDelay = `${index * 0.15}s`;
+                });
+            });
+
+            // O mesmo para os blocos da grid se quisermos stagger nos cards
+            document.querySelectorAll('.ds-grid').forEach(grid => {
+                grid.querySelectorAll('.ds-card, .anim-block').forEach((card, i) => {
+                    card.style.transitionDelay = `${(i % 5) * 0.1}s`;
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const vslContainer = document.getElementById('vsl-container');
+            const vslVideo = document.getElementById('vsl-video');
+            const vslPlayBtn = document.getElementById('vsl-play-btn');
+            const vslEndedScreen = document.getElementById('vsl-ended-screen');
+
+            if (vslContainer && vslVideo) {
+                // Ensure clicks on the container handle play/pause
+                vslContainer.addEventListener('click', function () {
+                    if (vslVideo.paused) {
+                        vslVideo.play();
+                        vslPlayBtn.style.display = 'none';
+                        if (vslEndedScreen) vslEndedScreen.style.display = 'none';
+                    } else {
+                        vslVideo.pause();
+                        // Ao pausar, apenas o botão central reaparece.
+                        vslPlayBtn.style.display = 'flex';
+                    }
+                });
+
+                if (vslEndedScreen) {
+                    vslEndedScreen.addEventListener('click', function (e) {
+                        e.stopPropagation(); // Previne o replay acidental do click geral do container
+                        const nextSec = document.querySelector('.hero-cta-wrap');
+                        if (nextSec) {
+                            nextSec.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    });
+                }
+
+                vslVideo.addEventListener('ended', function () {
+                    // Ao terminar, NÃO volta o botão de play, apenas mostra a nova tela preta.
+                    vslPlayBtn.style.display = 'none';
+                    if (vslEndedScreen) vslEndedScreen.style.display = 'flex';
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
